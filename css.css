@@ -1,0 +1,55 @@
+.dark_html{
+    font-family: "Roboto Mono";
+    font-size: 10pt; 
+    background-color: #1a1a1a;
+    color: #03A63D;
+}
+
+.light_html{
+    font-family: "Roboto Mono";
+    font-size: 10pt; 
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+header{
+    color: #03A63D;
+}
+button{
+    font-size: 10pt; 
+    font-family: "Roboto Mono";
+    margin-right: 5px;
+
+    border-radius: 0px;
+    border-style: solid;
+}
+
+button:hover{
+    cursor: pointer;
+    font-size: 10pt; 
+    font-family: "Roboto Mono";
+    margin-right: 5px;
+
+    border-radius: 0px;
+    border-style: solid;
+}
+
+.meme{
+    border-color: #03A63D;
+    border-width: 2px;
+    border-style: dotted;
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+.meme_dark{
+    border-color: #03A63D;
+    border-width: 2px;
+    border-style: dotted;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+#memebg{
+    border-radius: 10px;
+}
