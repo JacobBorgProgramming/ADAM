@@ -53,3 +53,11 @@ button:hover{
 #memebg{
     border-radius: 10px;
 }
+
+a{
+    color: #03A63D;
+}
+
+a:hover{
+    color: #006624;
+}
