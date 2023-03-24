@@ -24,7 +24,7 @@ var templates_bigbrain = Array('./memetemplates/smartsponge.jpeg','./memetemplat
 
 function versionm(){
 
-    versionnum = 'a1.4.0'
+    versionnum = 'a1.5.0'
     libversionnum = '1.0.6'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length
     console.log(versionnum)
@@ -38,12 +38,20 @@ function versionm(){
 
 
 var emotions = Array('good','bad','rage','good','bad','rage','good','bad','rage','gm');
+var topics = Array('mom','feds','libs','weak','btc','ai');
+
+
+/*
+var emotions = Array('bad');
+var topics = Array('weak');
+
+*/
 
 var intros = Array('a ','the ');
 
 var you = Array('you ','you are ');
 
-var topics = Array('mom','feds','libs','weak','btc','ai');
+
 
 //mom
 var topics_mom = Array('ur mom ','moms ','your mom ', 'your mother ', 'ur mother ');
@@ -68,16 +76,18 @@ var lines_r_libs = Array('you mention inflation ','you homestead ','conservative
 
 //weak
 var topics_weak = Array('weaklings ','reddit mods ','discord mods ','nerds ');
-var lines_g_weak = Array('you avoid physical contact by being a meme moderator ','they bully someone for playing Hogwarts Legacy ','they finally when they finally leave their parents houses ','they finally get a real job ','they buy a new videogame ','they ban a memer because they made a mean moderator meme ');
+var lines_g_weak = Array('you avoid physical contact by being a meme moderator ','they bully someone for ','they finally when they finally leave their parents houses ','they finally get a real job ','they buy a new videogame ','they ban a memer because they made a mean moderator meme ');
+var lines_g2_weak = Array('playing Hogwarts Legacy ','playing Fortnite ','having a job ','not having any Twitch sponsers ','having good relationships with their parents ','have a working car ','having an education ','game on Playstation ','game on xBox ','game on PC ');
+
 var lines_b_weak = Array('their wifi goes down ','they have to get a real job ','have to ban their favorite memer because they play Hogwarts Legacy ','when someone calls them "nerd" ');
-var lines_r_weak = Array('their wifi goes down ','they have to get a real job ','have to ban their favorite memer because they play Hogwarts Legacy ','when someone calls them "nerd" ');
+var lines_r_weak = Array('their wifi goes down ','they have to get a real job ','have to leave their house ','they are out of pizza ','they spent all their vbucks ','no one will sub to their cringe Twitch ');
 
 
 //btc
 var topics_btc = Array('crypto bros ', 'crypto frens ','crypto scammers ');
 var lines_g_btc = Array('BTC goes up ','ordinals go viral ','a NFT sells ','they only lose 50% on their crypto ');
 var lines_b_btc = Array('BTC crashes ','BTC crashes (again) ','another crypto exchange collapses ','the markets tank ');
-var lines_r_btc = Array('BTC crashes ','BTC crashes (again) ','another crypto exchange collapses ','the markets tank ');
+var lines_r_btc = Array('BTC crashes ','BTC crashes (again) ','another crypto exchange collapses ','the markets tank ','governments introduce CBDCs ','the FDIC bails out their competitors ');
 
 //AI
 var topics_ai = Array('AI ','ChatGPT ','Bing Chat ', 'YouChat ','Watson ', 'Cortana ');
@@ -156,6 +166,8 @@ function rd(){
 
     var topic_weak = topics_weak[Math.floor(Math.random()*topics_weak.length)];
     var line_g_weak = lines_g_weak[Math.floor(Math.random()*lines_g_weak.length)];
+    var line_g2_weak = lines_g2_weak[Math.floor(Math.random()*lines_g2_weak.length)];
+
     var line_b_weak = lines_b_weak[Math.floor(Math.random()*lines_b_weak.length)];
     var line_r_weak = lines_r_weak[Math.floor(Math.random()*lines_r_weak.length)];
 
@@ -391,12 +403,23 @@ document.getElementById("memebg").src = template_b
 console.log('Possible Memes: '+topics_weak.length*punches.length*templates_b.length)
 console.log('- - -')
 } else {
-    document.getElementById("outputtext").innerHTML = topic_weak + punch + line_b_weak
+    if (line_g_weak=='they bully someone for ') {
+        document.getElementById("outputtext").innerHTML = topic_weak + punch + line_g_weak + line_g2_weak
 
-    document.getElementById("memebg").src = template_b
+        document.getElementById("memebg").src = template_g
+        
+        console.log('Possible Memes: '+topics_weak.length*punches.length*templates_b.length*lines_b_weak.length)
+        console.log('- - -')
+    } else {
+        document.getElementById("outputtext").innerHTML = topic_weak + punch + line_b_weak
+
+        document.getElementById("memebg").src = template_b
+        
+        console.log('Possible Memes: '+topics_weak.length*punches.length*templates_b.length*lines_b_weak.length)
+        console.log('- - -')
+    }
+
     
-    console.log('Possible Memes: '+topics_weak.length*punches.length*templates_b.length*lines_b_weak.length)
-    console.log('- - -')
 }
 
 }
