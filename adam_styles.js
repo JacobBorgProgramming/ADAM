@@ -100,14 +100,14 @@ function bigger_mono(){
 function opensans(){
 
     document.getElementById("output").style = 'font-family: "Open Sans";'
-    document.getElementById("textsize").innerHTML = '<button onclick="smallest_opensans()">tiny</button><button onclick="smaller_opensans()">small</button><button onclick="bigger_opensans()">big</button>'
+    document.getElementById("textsize").innerHTML = '<button class="button" onclick="smallest_opensans()">tiny</button><button class="button" onclick="smaller_opensans()">small</button><button class="button" onclick="bigger_opensans()">big</button>'
 }
 
 function literata(){
 
 
     document.getElementById("output").style = 'font-family: "Literata;'
-    document.getElementById("textsize").innerHTML = '<button onclick="smallest_literata()">tiny</button><button onclick="smaller_literata()">small</button><button onclick="bigger_literata()">big</button>'
+    document.getElementById("textsize").innerHTML = '<button class="button" onclick="smallest_literata()">tiny</button><button class="button" onclick="smaller_literata()">small</button><button class="button" onclick="bigger_literata()">big</button>'
 
 }
 
@@ -115,7 +115,7 @@ function Nanum_Gothic_ExtraBold(){
 
 
     document.getElementById("output").style = 'font-family: "Nanum Gothic ExtraBold";'
-    document.getElementById("textsize").innerHTML = '<button onclick="smallest_Nanum()">tiny</button><button onclick="smaller_Nanum()">small</button><button onclick="bigger_Nanum()">big</button>'
+    document.getElementById("textsize").innerHTML = '<button class="button" onclick="smallest_Nanum()">tiny</button><button class="button" onclick="smaller_Nanum()">small</button><button class="button" onclick="bigger_Nanum()">big</button>'
 
 }
 
@@ -123,7 +123,7 @@ function Roboto_Mono(){
 
 
     document.getElementById("output").style = 'font-family: "Roboto Mono";'
-    document.getElementById("textsize").innerHTML = '<button onclick="smallest_mono()">tiny</button><button onclick="smaller_mono()">small</button><button onclick="bigger_mono()">big</button>'
+    document.getElementById("textsize").innerHTML = '<button class="button" onclick="smallest_mono()">tiny</button><button class="button" onclick="smaller_mono()">small</button><button class="button" onclick="bigger_mono()">big</button>'
 
 }
 
@@ -132,7 +132,7 @@ function Oswald(){
 
 
     document.getElementById("output").style = 'font-family: "Oswald";'
-    document.getElementById("textsize").innerHTML = '<button onclick="smallest_os()">tiny</button><button onclick="smaller_os()">small</button><button onclick="bigger_os()">big</button>'
+    document.getElementById("textsize").innerHTML = '<button class="button" onclick="smallest_os()">tiny</button><button class="button" onclick="smaller_os()">small</button><button class="button" onclick="bigger_os()">big</button>'
 
 }
 
