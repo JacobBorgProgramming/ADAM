@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html id="html" lang="en" class="dark_html" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADAM Project</title>
+    <link rel="stylesheet" href="https://fonts.borgcreative.com/fonts.css">
+    <link rel="shortcut icon" href="./adamwatermark.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css.css">
+</head>
+
+<header style="margin-bottom: 50px;">
+
+
+    <h1> <a href="./index.html"> <img width="25px" style="margin-right: -10px; margin-bottom: -3px" src="./adamwatermark.png" alt=""></a> A.D.A.M.</h1>
+    <h4>Algorithmic Discourse And Memeing <span id="version"></span></h4>
+
+    <!--<div id="mode" style="position: fixed; right: 10px; bottom: 10px;"> <button onclick="light()">Light</button> </div>-->
+</header>
+<body style="padding-left: 25px;"  onload="footermenu(), versionm()">
+
+    <p style="text-align: left;"> <button onclick="rd()">Make me a meme!</button> <button style="margin-left: 10px" onclick="atb()" hidden>...Using the ATB algorithm</button></p>
+    
+    <p> <input  type="text" name="text size" id="textsizeinput" placeholder="Input size..."> <button onclick="change_size()">Set Size</button> </p>
+    
+    <p style="text-align: left;" id="textsize"><button onclick="smallest_opensans()">tiny</button><button onclick="smaller_opensans()">small</button><button onclick="bigger_opensans()">big</button></p>
+    <p style="text-align: left;"> <button  style='font-family: "Open Sans";' onclick="opensans()">Open Sans</button><button  style='font-family: "Open Sans";' onclick="Roboto_Mono()">Roboto Mono</button>  <button  style='font-family: "Open Sans";' onclick="literata()">Literata</button><button  style='font-family: "Open Sans";' onclick="Nanum_Gothic_ExtraBold()">Nanum Gothic ExtraBold</button> </p>
+
+    
+
+    <div class="meme" id="meme" style=" width: 40%; padding-top: 10px;">
+    <div id="output" style='font-family: "Open Sans";'><p contenteditable="true" spellcheck="false" id="outputtext" style="text-align: left; padding-left: 5%;"></p></div>
+
+    <p style="text-align: center;"> <img id="memebg" src="./adamwatermark.png" width="95%" alt=""> </p>
+    <p hidden style="text-align: right; margin-top: -75px; margin-right: 25px;"><img id="watermark" src="" width="50px" alt=""> </p>
+    <h6 style="padding-left: 10px; padding-bottom: 2px;">ADAM Project <span id="version2"></span></h6>
+    </div>
+
+
+
+    <script src="./ADAM.js"></script>
+    <script src="./adam_styles.js"></script>
+
+
+
+</body>
+
+<footer>
+    <script src="./footermenu.js"></script>
+    <div id="footermenu"></div>
+
+</footer>
+</html>

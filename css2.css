@@ -1,0 +1,38 @@
+.dark_html{
+    font-family: "Roboto Mono";
+    font-size: 10pt; 
+    background-color: #1a1a1a;
+    color: #03A63D;
+}
+
+.light_html{
+    font-family: "Roboto Mono";
+    font-size: 10pt; 
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+
+
+#topmenu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+/* Custom Green Button */
+.button.is-green {
+
+    background-color: transparent;
+    border-color: #03A63D;
+    color: #03A63D;
+  }
+  
+  .button.is-green:hover, .button.is-success.is-hovered {
+    background-color: #03A63D;
+    border-color: #03A63D;
+    color: #fff;
+  }
+  
+  /* End */

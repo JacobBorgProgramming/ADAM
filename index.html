@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html id="html" lang="en" class="dark_html">
+<html lang="en" style="" class="dark_html" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,46 +6,183 @@
     <title>ADAM Project</title>
     <link rel="stylesheet" href="https://fonts.borgcreative.com/fonts.css">
     <link rel="shortcut icon" href="./adamwatermark.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./css2.css">
+    <link rel="stylesheet" href="./bulma/css/bulma.css">
+
+
 </head>
 
 <header style="margin-bottom: 50px;">
 
+<div id="topmenu">
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="./index.html">
+        <img src="./adam.png" width="112" >
+      </a>
+  
 
-    <h1> <a href="./index.html"> <img width="25px" style="margin-right: -10px; margin-bottom: -3px" src="./adamwatermark.png" alt=""></a> A.D.A.M.</h1>
-    <h4>Algorithmic Discourse And Memeing <span id="version"></span></h4>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="./index.html">
+          Home
+        </a>
+  
+        <a class="navbar-item" href="./changelog.html">
+          Change Log
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More
+          </a>
+  
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="./about.html">
+              About
+            </a>
+            <a class="navbar-item" href="https://jborgarts.com/contact.html" target="_blank">
+              Contact
+            </a>
+
+          </div>
+        </div>
+      </div>
+  
+      <div class="navbar-end">
+        <div class="navbar-item">
+            <h4>Algorithmic Discourse And Memeing <span id="version"></span></h4>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+</div>
+
+
+
 
     <!--<div id="mode" style="position: fixed; right: 10px; bottom: 10px;"> <button onclick="light()">Light</button> </div>-->
 </header>
-<body style="padding-left: 25px;"  onload="footermenu(), versionm()">
 
-    <p style="text-align: left;"> <button onclick="rd()">Make me a meme!</button> <button style="margin-left: 10px" onclick="atb()" hidden>...Using the ATB algorithm</button></p>
-    
-    <p> <input  type="text" name="text size" id="textsizeinput" placeholder="Input size..."> <button onclick="change_size()">Set Size</button> </p>
-    
-    <p style="text-align: left;" id="textsize"><button onclick="smallest_opensans()">tiny</button><button onclick="smaller_opensans()">small</button><button onclick="bigger_opensans()">big</button></p>
-    <p style="text-align: left;"> <button  style='font-family: "Open Sans";' onclick="opensans()">Open Sans</button><button  style='font-family: "Open Sans";' onclick="Roboto_Mono()">Roboto Mono</button>  <button  style='font-family: "Open Sans";' onclick="literata()">Literata</button><button  style='font-family: "Open Sans";' onclick="Nanum_Gothic_ExtraBold()">Nanum Gothic ExtraBold</button> </p>
+
+    <body style="padding-left: 25px; padding-top: 25px;"  onload="footermenu(), versionm()">
+
 
     
-
-    <div class="meme" id="meme" style=" width: 40%; padding-top: 10px;">
-    <div id="output" style='font-family: "Open Sans";'><p contenteditable="true" spellcheck="false" id="outputtext" style="text-align: left; padding-left: 5%;"></p></div>
-
-    <p style="text-align: center;"> <img id="memebg" src="./adamwatermark.png" width="95%" alt=""> </p>
-    <p hidden style="text-align: right; margin-top: -75px; margin-right: 25px;"><img id="watermark" src="" width="50px" alt=""> </p>
-    <h6 style="padding-left: 10px; padding-bottom: 2px;">ADAM Project <span id="version2"></span></h6>
-    </div>
+    
+    
+        <div class="columns is-centered ">
 
 
+            <div class="column is-half ">
+                <nav class="panel" style="background-color: white;">
+                    <p class="panel-heading">
+                      Controls
+                    </p>
+                    <div class="panel-block">
 
-    <script src="./ADAM.js"></script>
-    <script src="./adam_styles.js"></script>
+                    </div>
+ 
 
+                    <div class="panel-block ">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      <input class="input" type="text" name="text size" id="textsizeinput" placeholder="Input size..."> <button class="button" onclick="change_size()">Set Size</button> 
+                    </div>
+                    <div class="panel-block">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      <div class="columns is-mobile is-vcentered">
+                        
+                        <div class="column"><button class="button" onclick="smallest_opensans()">tiny</button></div>
+                        <div class="column"><button class="button" onclick="smaller_opensans()">small</button></div>
+                        <div class="column"><button class="button" onclick="bigger_opensans()">big</button></div>
+
+                      </div>
+                    </div>
+
+                    <div class="panel-block">
+                        <span class="panel-icon">
+                          <i class="fas fa-book" aria-hidden="true"></i>
+                        </span>
+                        <div class="columns is-mobile is-vcentered">
+                            <div class="column"><button class="button"  style='font-family: "Open Sans";' onclick="opensans()">Open Sans</button></div>
+                          <div class="column"><button class="button"  style='font-family: "Open Sans";' onclick="Roboto_Mono()">Roboto Mono</button></div>
+                          <div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>
+                          <div class="column"></div>
+                          
+                        </div>
+                    </div>
+
+
+
+                    <div class="panel-block">
+                      <a onclick="rd()"  class="button is-green is-outlined is-fullwidth">
+                        Make me a meme!
+                      </a>
+                    </div>
+                  </nav>
+
+                  <!--
+
+
+                <p style="text-align: left;"> <button onclick="rd()">Make me a meme!</button> <button style="margin-left: 10px" onclick="atb()" hidden>...Using the ATB algorithm</button></p>
+        
+                <p> <input  type="text" name="text size" id="textsizeinput" placeholder="Input size..."> <button onclick="change_size()">Set Size</button> </p>
+                
+                <p style="text-align: left;" id="textsize"><button onclick="smallest_opensans()">tiny</button><button onclick="smaller_opensans()">small</button><button onclick="bigger_opensans()">big</button></p>
+                <p style="text-align: left;"> <button  style='font-family: "Open Sans";' onclick="opensans()">Open Sans</button><button  style='font-family: "Open Sans";' onclick="Roboto_Mono()">Roboto Mono</button>  <button  style='font-family: "Open Sans";' onclick="literata()">Literata</button><button  style='font-family: "Open Sans";' onclick="Nanum_Gothic_ExtraBold()">Nanum Gothic ExtraBold</button> </p>
+                  -->
+                <script src="./ADAM.js"></script>
+                <script src="./adam_styles.js"></script>
+            </div>
+
+
+            <div class="column is-half">
+                <div class="meme" id="meme" style=" width: 60%; padding-top: 10px;">
+                
+                    <p hidden style="text-align: right; margin-top: -75px; margin-right: 25px;"><img id="watermark" src="" width="50px" alt=""> </p>
+                <!---->    
+                <div class="card">
+
+                    <div class="card-content">
+
+                  
+                      <div class="content">
+                        <div id="output" style='font-family: "Open Sans";'><p contenteditable="true" spellcheck="false" id="outputtext" style="text-align: left; padding-left: 5%;"></p></div>
+
+                      </div>
+                    </div>
+
+                    <div class="card-image">
+                        <figure class="image is-4by4">
+                          <img style="padding-left: 15px;padding-right: 15px;padding-bottom: 15px;" id="memebg"  src="./adamwatermark.png" alt="Output Image">
+                        </figure>
+                      </div>
+                  </div>
+                
+                
+                
+                
+                <!---->
+                </div>
+
+            </div>
+          </div>
 
 
 </body>
 
 <footer>
+    <center>
+        <h6 style="padding-left: 10px; padding-bottom: 2px;">ADAM Project <span id="version2"></span></h6>
+
+    </center>
     <script src="./footermenu.js"></script>
     <div id="footermenu"></div>
 
