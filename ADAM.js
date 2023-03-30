@@ -1,3 +1,5 @@
+/* © Jacob Borg 2023 */
+
 var templates = Array('./memetemplates/libertydoge.jpeg','./memetemplates/jbquestions.053.jpeg','./memetemplates/djtletsgo.jpeg','./memetemplates/hyperkyle.jpeg','./memetemplates/fauciexplains.039.png','./memetemplates/trashlegs.jpeg','./memetemplates/cryjack.jpeg','./memetemplates/gasonfire.jpeg','./memetemplates/resume.jpeg','./memetemplates/volume.jpeg','./memetemplates/crusadergasp.png','./memetemplates/waddles.jpeg','./memetemplates/spongehappy.jpeg','./memetemplates/spongelaugh.jpeg','./memetemplates/ohyea.jpeg','./memetemplates/jimwatch.jpeg','./memetemplates/fancypooh.jpeg','./memetemplates/frogsmirk.jpeg','./memetemplates/frogsmile.jpeg','./memetemplates/djthappy.jpeg','./memetemplates/dontdoitagaingiga.png','./memetemplates/sadjoe.webp','./memetemplates/johncena.png','./memetemplates/thisisfine.jpeg','./memetemplates/thewhat.jpeg','./memetemplates/panickelmo.jpeg','./memetemplates/madarthur.jpeg','./memetemplates/madfish.jpeg','./memetemplates/madmonke.jpeg','./memetemplates/madpat.jpeg','./memetemplates/knifesquirrel.jpeg','./memetemplates/leavingsponge.jpeg','./memetemplates/krabspanic.jpeg','./memetemplates/crusadetime.jpeg','./memetemplates/frograge.jpeg','./memetemplates/disturbsquid.jpeg','./memetemplates/bert.jpeg','./memetemplates/burnskeleton.jpeg','./memetemplates/aaa.jpeg','./memetemplates/johncena.png','./memetemplates/mygoals.jpeg','./memetemplates/mike.jpeg','./memetemplates/jones.jpg','./memetemplates/calculateglow.jpeg','./memetemplates/calculate.jpeg','./memetemplates/confused.jpeg','./memetemplates/spongewhat.jpeg','./memetemplates/whatcat.jpeg','./memetemplates/jbquestions.053.jpeg','./memetemplates/whatjack.jpeg','./memetemplates/holup.jpeg','./memetemplates/confusedcat.jpeg');
 
 //good
@@ -29,8 +31,10 @@ function versionm(){
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length
     console.log(versionnum)
 
+
     console.log('Template Index: '+ttemplates)
     console.log('Index Version: '+libversionnum)
+    console.log('© Jacob Borg 2023')
     console.log('- - -')
     document.getElementById("version").innerHTML = versionnum
     document.getElementById("version2").innerHTML = versionnum
