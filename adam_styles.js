@@ -37,6 +37,25 @@ function bigger_literata(){
     document.getElementById("output").style = 'font-size: 24pt; font-family: "Literata";'
 }
 
+
+function smallest_os(){
+
+
+    document.getElementById("output").style = 'font-size: 8pt; font-family: "Oswald";'
+}
+
+
+function smaller_os(){
+
+
+    document.getElementById("output").style = 'font-size: 12pt; font-family: "Oswald";'
+}
+function bigger_os(){
+
+
+    document.getElementById("output").style = 'font-size: 24pt; font-family: "Oswald";'
+}
+
 //
 
 function smallest_Nanum(){
@@ -105,6 +124,15 @@ function Roboto_Mono(){
 
     document.getElementById("output").style = 'font-family: "Roboto Mono";'
     document.getElementById("textsize").innerHTML = '<button onclick="smallest_mono()">tiny</button><button onclick="smaller_mono()">small</button><button onclick="bigger_mono()">big</button>'
+
+}
+
+
+function Oswald(){
+
+
+    document.getElementById("output").style = 'font-family: "Oswald";'
+    document.getElementById("textsize").innerHTML = '<button onclick="smallest_os()">tiny</button><button onclick="smaller_os()">small</button><button onclick="bigger_os()">big</button>'
 
 }
 
