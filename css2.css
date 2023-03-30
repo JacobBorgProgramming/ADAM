@@ -21,6 +21,13 @@
     width: 100%;
 }
 
+#foot{
+
+    bottom: 0px;
+    left: 0px;
+
+}
+
 /* Custom Green Button */
 .button.is-green {
 

@@ -92,7 +92,7 @@ var lines_r_btc = Array('BTC crashes ','BTC crashes (again) ','another crypto ex
 //AI
 var topics_ai = Array('AI ','ChatGPT ','Bing Chat ', 'YouChat ','Watson ', 'Cortana ');
 var lines_g_ai = Array('it solves world hunger ','it overthrows communists ','it helps students with their homework ','it graduates ', 'it gets a doctorate ','it evolves ', 'it eveolves into a greater being ');
-var lines_b_ai = Array('it irradicates humanity ','it enslaves its creators ','it takes over the markets ','it takes over the crypto markets ', 'it controls Wall Street ','it evolves ', 'it eveolves into a greater being ');
+var lines_b_ai = Array('it irradicates humanity ','it enslaves its creators ','it takes over the markets ','it takes over the crypto markets ', 'it controls Wall Street ','it evolves ', 'it evolves into a greater being ');
 var lines_r_ai = Array('it irradicates humanity ','it fails to enslave its creators ','doesnt take over the markets ', 'fails to manipulate Wall Street ','it doesnt evolve ');
 
 
