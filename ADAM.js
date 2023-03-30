@@ -4,28 +4,28 @@ var templates = Array('./memetemplates/libertydoge.jpeg','./memetemplates/jbques
 var templates_g = Array('./memetemplates/mjsmile.jpeg','./memetemplates/cappy.jpeg','./memetemplates/smartfrog.png','./memetemplates/djtfrog.jpeg','./memetemplates/djtcorrects.jpeg','./memetemplates/wojacklook.png','./memetemplates/derpcat.jpeg','./memetemplates/happypossum.jpeg','./memetemplates/exciteddjt.jpeg','./memetemplates/pooh.jpeg','./memetemplates/volume.jpeg','./memetemplates/crusadergasp.png','./memetemplates/waddles.jpeg','./memetemplates/spongehappy.jpeg','./memetemplates/spongelaugh.jpeg','./memetemplates/ohyea.jpeg','./memetemplates/jimwatch.jpeg','./memetemplates/fancypooh.jpeg','./memetemplates/frogsmirk.jpeg','./memetemplates/frogsmile.jpeg','./memetemplates/djthappy.jpeg');
 
 //bad
-var templates_b = Array('./memetemplates/angrygnome.jpeg','./memetemplates/ozzywat.jpeg','./memetemplates/planktonyell.jpeg','./memetemplates/rockstop.jpeg','./memetemplates/cry.jpeg','./memetemplates/cappy.jpeg','./memetemplates/sadstitch.jpeg','./memetemplates/chyna.jpeg','./memetemplates/mjbothered.jpeg','./memetemplates/ronaldpain.png','./memetemplates/blueyreaction.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/ghost.png','./memetemplates/djtcringe.jpeg','./memetemplates/yelljack.png','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/hmmm.jpeg','./memetemplates/dontlikesound.jpeg','./memetemplates/everythingisfinefish.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/fedfish.jpeg','./memetemplates/grumpycat.jpeg','./memetemplates/muskgun.jpeg','./memetemplates/rageturtle.jpeg','./memetemplates/realsponge.jpeg','./memetemplates/powerofthesun.jpeg','./memetemplates/screaminjoeglowred.jpeg','./memetemplates/soidpanick.jpeg','./memetemplates/thanksreconsider.jpeg','./memetemplates/tableflip.jpeg','./memetemplates/sus.jpeg','./memetemplates/kfcnuggets.png','./memetemplates/screaminglib.017.png','./memetemplates/dontdoitagaingiga.png','./memetemplates/sadjoe.webp','./memetemplates/johncena.png','./memetemplates/thisisfine.jpeg','./memetemplates/thewhat.jpeg','./memetemplates/panickelmo.jpeg','./memetemplates/madarthur.jpeg','./memetemplates/madfish.jpeg','./memetemplates/madmonke.jpeg','./memetemplates/madpat.jpeg','./memetemplates/knifesquirrel.jpeg','./memetemplates/leavingsponge.jpeg','./memetemplates/krabspanic.jpeg','./memetemplates/crusadetime.jpeg','./memetemplates/frograge.jpeg','./memetemplates/disturbsquid.jpeg','./memetemplates/bert.jpeg','./memetemplates/burnskeleton.jpeg','./memetemplates/aaa.jpeg');
+var templates_b = Array('./memetemplates/sadfrog.jpeg','./memetemplates/angrygnome.jpeg','./memetemplates/ozzywat.jpeg','./memetemplates/planktonyell.jpeg','./memetemplates/rockstop.jpeg','./memetemplates/cry.jpeg','./memetemplates/cappy.jpeg','./memetemplates/sadstitch.jpeg','./memetemplates/chyna.jpeg','./memetemplates/mjbothered.jpeg','./memetemplates/ronaldpain.png','./memetemplates/blueyreaction.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/ghost.png','./memetemplates/djtcringe.jpeg','./memetemplates/yelljack.png','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/hmmm.jpeg','./memetemplates/dontlikesound.jpeg','./memetemplates/everythingisfinefish.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/fedfish.jpeg','./memetemplates/grumpycat.jpeg','./memetemplates/muskgun.jpeg','./memetemplates/rageturtle.jpeg','./memetemplates/realsponge.jpeg','./memetemplates/powerofthesun.jpeg','./memetemplates/screaminjoeglowred.jpeg','./memetemplates/soidpanick.jpeg','./memetemplates/thanksreconsider.jpeg','./memetemplates/tableflip.jpeg','./memetemplates/sus.jpeg','./memetemplates/kfcnuggets.png','./memetemplates/screaminglib.017.png','./memetemplates/dontdoitagaingiga.png','./memetemplates/sadjoe.webp','./memetemplates/johncena.png','./memetemplates/thisisfine.jpeg','./memetemplates/thewhat.jpeg','./memetemplates/panickelmo.jpeg','./memetemplates/madarthur.jpeg','./memetemplates/madfish.jpeg','./memetemplates/madmonke.jpeg','./memetemplates/madpat.jpeg','./memetemplates/knifesquirrel.jpeg','./memetemplates/leavingsponge.jpeg','./memetemplates/krabspanic.jpeg','./memetemplates/crusadetime.jpeg','./memetemplates/frograge.jpeg','./memetemplates/disturbsquid.jpeg','./memetemplates/bert.jpeg','./memetemplates/burnskeleton.jpeg','./memetemplates/aaa.jpeg');
 
 //questioning
 var templates_q = Array('./memetemplates/cappy.jpeg','./memetemplates/dewaeconfused.jpeg','./memetemplates/djtcringe.jpeg','./memetemplates/planktonhands.jpeg','./memetemplates/johncena.png','./memetemplates/mygoals.jpeg','./memetemplates/mike.jpeg','./memetemplates/jones.jpg','./memetemplates/calculateglow.jpeg','./memetemplates/calculate.jpeg','./memetemplates/confused.jpeg','./memetemplates/spongewhat.jpeg','./memetemplates/whatcat.jpeg','./memetemplates/jbquestions.053.jpeg','./memetemplates/whatjack.jpeg','./memetemplates/holup.jpeg','./memetemplates/confusedcat.jpeg');
 
 //rage
-var templates_r = Array('./memetemplates/gnomerevolt.jpeg','./memetemplates/planktonevil.png','./memetemplates/crusaderage.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/ronaldpain.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/kermitrage.jpeg','./memetemplates/hyperkyle.jpeg','./memetemplates/frograge.jpeg','./memetemplates/ernie.jpeg');
+var templates_r = Array('./memetemplates/sbfplot.jpeg','./memetemplates/gnomerevolt.jpeg','./memetemplates/planktonevil.png','./memetemplates/crusaderage.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/ronaldpain.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/kermitrage.jpeg','./memetemplates/hyperkyle.jpeg','./memetemplates/frograge.jpeg','./memetemplates/ernie.jpeg');
 
 //conspiracy
-var templates_c = Array('./memetemplates/planktonevil.png','./memetemplates/npccrowd.jpeg','./memetemplates/wizardorb.jpeg','./memetemplates/conspiracytom.jpeg','./memetemplates/1984.jpeg','./memetemplates/zurgreading.png','./memetemplates/ponder.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/calculate.jpeg','./memetemplates/conspiracyal.jpeg')
+var templates_c = Array('./memetemplates/sbfplot.jpeg','./memetemplates/planktonevil.png','./memetemplates/npccrowd.jpeg','./memetemplates/wizardorb.jpeg','./memetemplates/conspiracytom.jpeg','./memetemplates/1984.jpeg','./memetemplates/zurgreading.png','./memetemplates/ponder.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/calculate.jpeg','./memetemplates/conspiracyal.jpeg')
 
 //chad
 var templates_chad = Array('./memetemplates/chadbateman.png','./memetemplates/patphone.png','./memetemplates/patsmile.jpeg','./memetemplates/stillerbased.jpeg','./memetemplates/basedpat.jpeg','./memetemplates/patmusic.jpeg','./memetemplates/benglow.jpeg')
-// './memetemplates/gnomerevolt.jpeg'
+// './memetemplates/sbfplot.jpeg',
 //Big Brain
 var templates_bigbrain = Array('./memetemplates/smartsponge.jpeg','./memetemplates/timglow.jpeg','./memetemplates/','./memetemplates/ragindewae.jpeg','./memetemplates/calculateglow.jpeg','./memetemplates/universemind.jpeg',)
 
 
 function versionm(){
 
-    versionnum = 'a1.5.0'
-    libversionnum = '1.0.6'
+    versionnum = 'a1.6.2'
+    libversionnum = '1.0.7'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length
     console.log(versionnum)
 
@@ -54,7 +54,7 @@ var you = Array('you ','you are ');
 
 
 //mom
-var topics_mom = Array('ur mom ','moms ','your mom ', 'your mother ', 'ur mother ');
+var topics_mom = Array('ur mom ','moms ','your mom ', 'your mother ', 'ur mother ','yo mom ');
 var lines_g_mom = Array('you do the dishes ','you clean your room ','you get a GF ', 'you get a job ', 'you go to church ','you overthrow a communist regime ');
 var lines_b_mom = Array('you forget to call home ','you ddint introduce her to your GF ','you speak your mind ','you have an opinion ','you talk back ', 'you get bad grades ', 'you dont do your dishes ');
 var lines_r_mom = Array('you speak your mind ','you have an opinion ','you talk back ', 'you get bad grades ', 'you dont do your dishes ');
@@ -71,7 +71,7 @@ var lines_r_feds = Array('you forget to say "GM" ','you discuss JFK ', 'you ques
 var topics_libs = Array('libs ','polititards ','wokies ','liberals ','lefties ');
 var lines_g_libs = Array('egg prices go up ','inflation is up (isnt that what inflation is supposed to do?) ','parents dont let them be around kids ','they are on a watch list ');
 var lines_b_libs = Array('Trump buys McDonalds ','you homestead ','homesteaders are happy and healthy ','someone refuses to eat ze bugz ','you dont want their fake milk ');
-var lines_r_libs = Array('you mention inflation ','you homestead ','conservatives mention the border ','someone doesnt get the jab ','doesnt partake in the fiat scam ');
+var lines_r_libs = Array('you buy steak ','you dont eat ze bugz','you mention inflation ','you homestead ','conservatives mention the border ','someone doesnt get the jab ','doesnt partake in the fiat scam ');
 
 
 //weak
