@@ -26,7 +26,7 @@ var templates_bigbrain = Array('./memetemplates/smartsponge.jpeg','./memetemplat
 
 function versionm(){
 
-    versionnum = 'a1.6.3'
+    versionnum = 'a1.6.4'
     libversionnum = '1.0.7'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length
     console.log(versionnum)
@@ -110,7 +110,7 @@ var lines = Array('your BTC ','the unknown ','the secrets of the universe ');
 var line_g_u = Array('youre ','you are', 'ur ')
 var line_g_be = Array('happy ', 'strapped ', 'having a good day ')
 
-var lines_g = Array('BTC goes up ','ordinals go viral ','a NFT sells ','they only lose 50% on their crypto ');
+var lines_g = Array('SEC takes their holdings ','BTC goes up ','ordinals go viral ','a NFT sells ','they only lose 50% on their crypto ');
 
 
 //Advanced Topic Builder (ATB)
@@ -125,7 +125,16 @@ let when = 'when '
 
 var atb_pronouns_1 = Array('they ','she ','he ','it ')
 
-var atb_actions_1 = Array(' ')
+var atb_actions_p1 = Array('helps','harms')
+
+function atb(){
+    document.getElementById("watermark").src = './adamwatermark.png'
+    var subject1 = atb_subjects_1[Math.floor(Math.random()*atb_subjects_1.length)];
+
+    document.getElementById("outputtext").innerHTML = subject1
+    
+    document.getElementById("memebg").src = template_g
+}
 
 
 
@@ -238,6 +247,7 @@ function rd(){
         }
 
         }
+
 
 //feds
 
