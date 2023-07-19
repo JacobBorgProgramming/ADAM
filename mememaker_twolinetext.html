@@ -41,37 +41,23 @@
                     <p class="panel-heading">
                       Controls
                     </p>
-                    <div class="panel-block">
-
-                    </div>
- 
-
                     <div class="panel-block ">
                       <span class="panel-icon">
                         <i class="fas fa-book" aria-hidden="true"></i>
                       </span>
-                      <input class="input" type="text" name="text size" id="textsizeinput" placeholder="Input size..."> <button class="button" onclick="change_size()">Set Size</button> 
+                      <input class="input" type="text" name="text size" id="textsizeinput" placeholder="Font size..."> <button class="button" onclick="change_size2()">Set Size</button> 
                     </div>
-                    <div class="panel-block">
-                      <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
-                      </span>
-                      <div id="textsize" class="columns is-mobile is-vcentered">
-                        
-                        <div class="column"><button class="button" onclick="smallest_opensans()">tiny</button></div>
-                        <div class="column"><button class="button" onclick="smaller_opensans()">small</button></div>
-                        <div class="column"><button class="button" onclick="bigger_opensans()">big</button></div>
+ 
 
-                      </div>
-                    </div>
+
 
                     <div class="panel-block">
                         <span class="panel-icon">
                           <i class="fas fa-book" aria-hidden="true"></i>
                         </span>
                         <div class="columns is-mobile is-vcentered">
-                            <div class="column"><button class="button"  style='font-family: "Open Sans";' onclick="opensans()">Open Sans</button></div>
-                          <div class="column"><button class="button"  style='font-family: "Roboto Mono";' onclick="Roboto_Mono()">Roboto Mono</button></div>
+                            <div class="column"><button class="button"  style='font-family: "Open Sans";' onclick="OpenSans2()">Open Sans</button></div>
+                          <div class="column"><button class="button"  style='font-family: "Roboto Mono";' onclick="Roboto_Mono2()">Roboto Mono</button></div>
                           <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
                           <div class="column"></div>
                           
@@ -83,9 +69,23 @@
                           <i class="fas fa-book" aria-hidden="true"></i>
                         </span>
                         <div class="columns is-mobile is-vcentered">
-                            <div class="column"><button class="button"  style='font-family: "Litereta";' onclick="literata()">Literata</button></div>
+                            <div class="column"><button class="button"  style='font-family: "Litereta";' onclick="Literata2()">Literata</button></div>
 
-                            <div class="column"><button class="button"  style='font-family: "Oswald";' onclick="Oswald()">Oswald</button></div>
+                            <div class="column"><button class="button"  style='font-family: "Oswald";' onclick="oswald2()">Oswald</button></div>
+                          <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
+                          <div class="column"></div>
+                          
+                        </div>
+                    </div>
+
+                                        <div class="panel-block">
+                        <span class="panel-icon">
+                          <i class="fas fa-book" aria-hidden="true"></i>
+                        </span>
+                        <div class="columns is-mobile is-vcentered">
+                            <div class="column"><button class="button" onclick="whitetext()">Whate Text</button></div>
+
+                            <div class="column"><button class="button" onclick="blacktext()">Black Text</button></div>
                           <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
                           <div class="column"></div>
                           
@@ -109,6 +109,7 @@
                       <a href="./mememaker_twolinetext.html" class="button is-green is-outlined is-fullwidth">
                         Classic Meme
                       </a>
+
 
                       
 
@@ -185,26 +186,26 @@
                 <div class="meme" id="meme" style=" width: 60%; padding-top: 10px;">
                 
                     <p hidden style="text-align: right; margin-top: -75px; margin-right: 25px;"><img id="watermark" src="" width="50px" alt=""> </p>
-                <!---->    
-                <div class="card">
+
+
+                  <div class="card container">
 
                     <div class="card-content">
 
                   
-                      <div class="content">
-                        <div id="output" style='font-family: "Oswald";'><p contenteditable="true" spellcheck="false" id="outputtext" style="text-align: left; padding-left: 5%;">Type funny here</p></div>
+                      <div class="content" id="memecontent">
+                        <img id="memebg" src="./adamwatermark.png" alt="" style="width:100%;">
+
+                        <div hidden class="centered">Centered</div>
+                        <div  id="output" style='font-family: "Oswald";' class="top" contenteditable="true" spellcheck="false" >Top Text</div>
+                        <div  id="output2" style='font-family: "Oswald";' class="bottom" contenteditable="true" spellcheck="false" >Bottom Text</div>
+
 
                       </div>
                     </div>
 
-                    <div class="card-image">
-                        <figure class="image is-4by4">
-                          <img style="padding-left: 15px;padding-right: 15px;padding-bottom: 15px;" id="memebg"  src="./adamwatermark.png" alt="Output Image">
-                        </figure>
-                      </div>
 
                   </div>
-
                 
                 
                 

@@ -158,3 +158,53 @@ function dark(){
 
 
 }
+
+
+
+function oswald2(){
+    document.getElementById("output").style = 'font-family: "Oswald";'
+    document.getElementById("output2").style = 'font-family: "Oswald";'
+}
+
+function OpenSans2(){
+    document.getElementById("output").style = 'font-family: "Open Sans";'
+    document.getElementById("output2").style = 'font-family: "Open Sans";'
+}
+
+function Literata2(){
+    document.getElementById("output").style = 'font-family: "Literata";'
+    document.getElementById("output2").style = 'font-family: "Literata";'
+}
+
+function Roboto_Mono2(){
+    document.getElementById("output").style = 'font-family: "Roboto Mono";'
+    document.getElementById("output2").style = 'font-family: "Roboto Mono";'
+}
+
+function change_size2(){
+    
+    size = document.getElementById("textsizeinput").value
+    document.getElementById("output").style = 'font-size:' + size+';'+'font-family: "Oswald";'
+    document.getElementById("output2").style = 'font-size:' + size+';'+'font-family: "Oswald";'
+
+}
+
+function center(){
+    document.getElementById("output").class = 'top'
+    document.getElementById("output2").class = 'bottom'
+}
+
+function left(){
+    document.getElementById("output").class = 'top-left'
+    document.getElementById("output2").class = 'bottom-left'
+}
+
+function whitetext(){
+    document.getElementById("memecontent").style = 'color: #ffffff;'
+
+}
+
+function blacktext(){
+    document.getElementById("memecontent").style = 'color: #1a1a1a;'
+
+}
