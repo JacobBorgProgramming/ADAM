@@ -15,10 +15,10 @@ var templates_q = Array('./memetemplates/confusedjacky.jpg','./memetemplates/cap
 var templates_r = Array('./memetemplates/maddoge.jpg','./memetemplates/hulkyell.jpg','./memetemplates/anger.jpg','./memetemplates/surrealanger.jpg','./memetemplates/sbfplot.jpeg','./memetemplates/gnomerevolt.jpeg','./memetemplates/planktonevil.png','./memetemplates/crusaderage.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/ronaldpain.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/kermitrage.jpeg','./memetemplates/hyperkyle.jpeg','./memetemplates/frograge.jpeg','./memetemplates/ernie.jpeg');
 
 //conspiracy
-var templates_c = Array('./memetemplates/gigachad1.jpg','./memetemplates/sbfplot.jpeg','./memetemplates/planktonevil.png','./memetemplates/npccrowd.jpeg','./memetemplates/wizardorb.jpeg','./memetemplates/conspiracytom.jpeg','./memetemplates/1984.jpeg','./memetemplates/zurgreading.png','./memetemplates/ponder.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/calculate.jpeg','./memetemplates/conspiracyal.jpeg')
+var templates_c = Array('./memetemplates/sbfplot.jpeg','./memetemplates/planktonevil.png','./memetemplates/npccrowd.jpeg','./memetemplates/wizardorb.jpeg','./memetemplates/conspiracytom.jpeg','./memetemplates/1984.jpeg','./memetemplates/zurgreading.png','./memetemplates/ponder.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/calculate.jpeg','./memetemplates/conspiracyal.jpeg')
 
 //chad
-var templates_chad = Array('./memetemplates/chadbateman.png','./memetemplates/patphone.png','./memetemplates/patsmile.jpeg','./memetemplates/stillerbased.jpeg','./memetemplates/basedpat.jpeg','./memetemplates/patmusic.jpeg','./memetemplates/benglow.jpeg')
+var templates_chad = Array('./memetemplates/gigachad1.jpg','./memetemplates/chadbateman.png','./memetemplates/patphone.png','./memetemplates/patsmile.jpeg','./memetemplates/stillerbased.jpeg','./memetemplates/basedpat.jpeg','./memetemplates/patmusic.jpeg','./memetemplates/benglow.jpeg')
 // './memetemplates/sbfplot.jpeg',
 //Big Brain
 var templates_bigbrain = Array('./memetemplates/smartsponge.jpeg','./memetemplates/timglow.jpeg','./memetemplates/','./memetemplates/ragindewae.jpeg','./memetemplates/calculateglow.jpeg','./memetemplates/universemind.jpeg',)
@@ -26,7 +26,7 @@ var templates_bigbrain = Array('./memetemplates/smartsponge.jpeg','./memetemplat
 
 function versionm(){
 
-    versionnum = 'a1.7.1'
+    versionnum = 'a1.8.0'
     libversionnum = '1.0.8'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length
     console.log(versionnum)

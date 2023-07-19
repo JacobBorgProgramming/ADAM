@@ -162,30 +162,30 @@ function dark(){
 
 
 function oswald2(){
-    document.getElementById("output").style = 'font-family: "Oswald";'
-    document.getElementById("output2").style = 'font-family: "Oswald";'
+    document.getElementById("fontcontrol").style = 'font-family: "Oswald";'
+
 }
 
 function OpenSans2(){
-    document.getElementById("output").style = 'font-family: "Open Sans";'
-    document.getElementById("output2").style = 'font-family: "Open Sans";'
+    document.getElementById("fontcontrol").style = 'font-family: "Open Sans";'
+
 }
 
 function Literata2(){
-    document.getElementById("output").style = 'font-family: "Literata";'
-    document.getElementById("output2").style = 'font-family: "Literata";'
+    document.getElementById("fontcontrol").style = 'font-family: "Literata";'
+
 }
 
 function Roboto_Mono2(){
-    document.getElementById("output").style = 'font-family: "Roboto Mono";'
-    document.getElementById("output2").style = 'font-family: "Roboto Mono";'
+    document.getElementById("fontcontrol").style = 'font-family: "Roboto Mono";'
+
 }
 
 function change_size2(){
     
     size = document.getElementById("textsizeinput").value
-    document.getElementById("output").style = 'font-size:' + size+';'+'font-family: "Oswald";'
-    document.getElementById("output2").style = 'font-size:' + size+';'+'font-family: "Oswald";'
+    document.getElementById("output").style = 'font-size:' + size+';'
+    document.getElementById("output2").style = 'font-size:' + size+';'
 
 }
 
