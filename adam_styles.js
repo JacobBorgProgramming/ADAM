@@ -181,6 +181,17 @@ function Roboto_Mono2(){
 
 }
 
+function Textura2(){
+    document.getElementById("fontcontrol").style = 'font-family: "Textura";'
+
+}
+
+function OpenDyslexic2(){
+    document.getElementById("fontcontrol").style = 'font-family: "OpenDyslexic Bold"; '
+
+}
+
+
 function change_size2(){
     
     size = document.getElementById("textsizeinput").value

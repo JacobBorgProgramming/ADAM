@@ -26,7 +26,7 @@ var templates_bigbrain = Array('./memetemplates/smartsponge.jpeg','./memetemplat
 
 function versionm(){
 
-    versionnum = 'a1.8.0'
+    versionnum = 'a1.8.1'
     libversionnum = '1.0.8'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length
     console.log(versionnum)
