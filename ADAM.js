@@ -21,14 +21,16 @@ var templates_c = Array('./memetemplates/sbfplot.jpeg','./memetemplates/plankton
 var templates_chad = Array('./memetemplates/gigachad1.jpg','./memetemplates/chadbateman.png','./memetemplates/patphone.png','./memetemplates/patsmile.jpeg','./memetemplates/stillerbased.jpeg','./memetemplates/basedpat.jpeg','./memetemplates/patmusic.jpeg','./memetemplates/benglow.jpeg')
 // './memetemplates/sbfplot.jpeg',
 //Big Brain
-var templates_bigbrain = Array('./memetemplates/smartsponge.jpeg','./memetemplates/timglow.jpeg','./memetemplates/','./memetemplates/ragindewae.jpeg','./memetemplates/calculateglow.jpeg','./memetemplates/universemind.jpeg',)
+var templates_bigbrain = Array('./memetemplates/saysomethingpenguin.png','./memetemplates/smartsponge.jpeg','./memetemplates/smartguy.jpg','./memetemplates/patsmartdumb.jpg','./memetemplates/timglow.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/calculateglow.jpeg','./memetemplates/universemind.jpeg')
+
+var templates_goth = Array('./memetemplates/aprilno.jpg','./memetemplates/someone.png','./memetemplates/okgetin.jpg','./memetemplates/zombiecoaster.jpg','./memetemplates/spookystops.png','./memetemplates/burnskeleton.jpeg','./memetemplates/spookyskeleton2.jpg','./memetemplates/whatsthisjack2.jpg','./memetemplates/spookyskeleton.jpg','./memetemplates/edward.jpg','./memetemplates/whatsthis.jpg','./memetemplates/wednesdaycomp.jpg','./memetemplates/gomez.jpg')
 
 
 function versionm(){
 
     versionnum = 'a1.8.1'
-    libversionnum = '1.0.8'
-    ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length
+    libversionnum = '1.1.0'
+    ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length+templates_goth.length+templates_bigbrain.length
     console.log(versionnum)
 
 
