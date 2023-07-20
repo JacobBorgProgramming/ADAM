@@ -59,11 +59,17 @@
     left: 10%;
   }
   
+  .positioncontrol {
+    position: absolute;
+    top: 8px;
+    left: 0%;
+    width: 100%;
+  }
   /* Top left text */
   .top-left {
     position: absolute;
-    top: 8px;
-    left: 10%;
+    top: 0px;
+    left: 0%;
   }
   
   /* Top right text */

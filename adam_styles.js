@@ -219,3 +219,29 @@ function blacktext(){
     document.getElementById("memecontent").style = 'color: #1a1a1a;'
 
 }
+
+
+var slider = document.getElementById("myRange");
+slider.oninput = function() {
+    
+    positioncontrol.style = 'top: '+this.value+'px;';
+  } 
+
+  var slider2 = document.getElementById("myRange2");
+slider2.oninput = function() {
+    
+    output.style = 'left: '+this.value+'px;';
+  } 
+
+  function setpo(){
+    
+    y = document.getElementById("textyinput").value
+    x = document.getElementById("textxinput").value
+    document.getElementById("positioncontrol").style = 'left:' + x+';'+'top:' + y+';'
+
+
+    y2 = document.getElementById("textyinput2").value
+    x2 = document.getElementById("textxinput2").value
+    document.getElementById("positioncontrol2").style = 'left:' + x+';'+'top:' + y+';'
+
+}
