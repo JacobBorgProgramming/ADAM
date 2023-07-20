@@ -15,22 +15,23 @@ var templates_q = Array('./memetemplates/confusedjacky.jpg','./memetemplates/cap
 var templates_r = Array('./memetemplates/maddoge.jpg','./memetemplates/hulkyell.jpg','./memetemplates/anger.jpg','./memetemplates/surrealanger.jpg','./memetemplates/sbfplot.jpeg','./memetemplates/gnomerevolt.jpeg','./memetemplates/planktonevil.png','./memetemplates/crusaderage.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/ronaldpain.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/kermitrage.jpeg','./memetemplates/hyperkyle.jpeg','./memetemplates/frograge.jpeg','./memetemplates/ernie.jpeg');
 
 //conspiracy
-var templates_c = Array('./memetemplates/sbfplot.jpeg','./memetemplates/planktonevil.png','./memetemplates/npccrowd.jpeg','./memetemplates/wizardorb.jpeg','./memetemplates/conspiracytom.jpeg','./memetemplates/1984.jpeg','./memetemplates/zurgreading.png','./memetemplates/ponder.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/calculate.jpeg','./memetemplates/conspiracyal.jpeg')
+var templates_c = Array('./memetemplates/Laughing-Villains.jpg','./memetemplates/sbfplot.jpeg','./memetemplates/planktonevil.png','./memetemplates/npccrowd.jpeg','./memetemplates/wizardorb.jpeg','./memetemplates/conspiracytom.jpeg','./memetemplates/1984.jpeg','./memetemplates/zurgreading.png','./memetemplates/ponder.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/calculate.jpeg','./memetemplates/conspiracyal.jpeg')
 
 //chad
-var templates_chad = Array('./memetemplates/gigachad1.jpg','./memetemplates/chadbateman.png','./memetemplates/patphone.png','./memetemplates/patsmile.jpeg','./memetemplates/stillerbased.jpeg','./memetemplates/basedpat.jpeg','./memetemplates/patmusic.jpeg','./memetemplates/benglow.jpeg')
+var templates_chad = Array('./memetemplates/I-Should-Buy-A-Boat-Cat.jpg','./memetemplates/I-Too-Like-To-Live-Dangerously.jpg','./memetemplates/gigachad1.jpg','./memetemplates/chadbateman.png','./memetemplates/patphone.png','./memetemplates/patsmile.jpeg','./memetemplates/stillerbased.jpeg','./memetemplates/basedpat.jpeg','./memetemplates/patmusic.jpeg','./memetemplates/benglow.jpeg')
 // './memetemplates/sbfplot.jpeg',
 //Big Brain
-var templates_bigbrain = Array('./memetemplates/saysomethingpenguin.png','./memetemplates/smartsponge.jpeg','./memetemplates/smartguy.jpg','./memetemplates/patsmartdumb.jpg','./memetemplates/timglow.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/calculateglow.jpeg','./memetemplates/universemind.jpeg')
+var templates_bigbrain = Array('./memetemplates/Dr-Evil-Laser.jpg','./memetemplates/saysomethingpenguin.png','./memetemplates/smartsponge.jpeg','./memetemplates/smartguy.jpg','./memetemplates/patsmartdumb.jpg','./memetemplates/timglow.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/calculateglow.jpeg','./memetemplates/universemind.jpeg')
 
-var templates_goth = Array('./memetemplates/aprilno.jpg','./memetemplates/someone.png','./memetemplates/okgetin.jpg','./memetemplates/zombiecoaster.jpg','./memetemplates/spookystops.png','./memetemplates/burnskeleton.jpeg','./memetemplates/spookyskeleton2.jpg','./memetemplates/whatsthisjack2.jpg','./memetemplates/spookyskeleton.jpg','./memetemplates/edward.jpg','./memetemplates/whatsthis.jpg','./memetemplates/wednesdaycomp.jpg','./memetemplates/gomez.jpg')
+var templates_goth = Array('./memetemplates/spookycat.png','./memetemplates/fireskeleton.jpg','./memetemplates/beatlejuice3.jpg','./memetemplates/beatlejuice2.jpg','./memetemplates/beatlejuice1.jpg','./memetemplates/aprilno.jpg','./memetemplates/someone.png','./memetemplates/okgetin.jpg','./memetemplates/zombiecoaster.jpg','./memetemplates/spookystops.png','./memetemplates/burnskeleton.jpeg','./memetemplates/spookyskeleton2.jpg','./memetemplates/whatsthisjack2.jpg','./memetemplates/spookyskeleton.jpg','./memetemplates/edward.jpg','./memetemplates/whatsthis.jpg','./memetemplates/wednesdaycomp.jpg','./memetemplates/gomez.jpg')
 
+var templates_soy = Array('./memetemplates/sheepsoldier.jpg','./memetemplates/soyllet.jpg','./memetemplates/sadcat.jpg')
 
 function versionm(){
 
     versionnum = 'a1.8.1'
-    libversionnum = '1.1.0'
-    ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length+templates_goth.length+templates_bigbrain.length
+    libversionnum = '1.1.1'
+    ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length+templates_goth.length+templates_bigbrain.length+templates_soy.length
     console.log(versionnum)
 
 
