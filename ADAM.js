@@ -29,7 +29,7 @@ var templates_soy = Array('./memetemplates/sheepsoldier.jpg','./memetemplates/so
 
 function versionm(){
 
-    versionnum = 'a1.8.2'
+    versionnum = 'a1.8.4'
     libversionnum = '1.1.2'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length+templates_goth.length+templates_bigbrain.length+templates_soy.length
     console.log(versionnum)

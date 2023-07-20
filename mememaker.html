@@ -54,34 +54,62 @@
                     </div>
 
 
+
                     <div class="panel-block">
                       <span class="panel-icon">
                         <i class="fas fa-book" aria-hidden="true"></i>
                       </span>
                       <div class="columns is-mobile is-vcentered">
-                          <div class="column"><button class="button"  style='font-family: "Open Sans";' onclick="OpenSans2()">Open Sans</button></div>
-                        <div class="column"><button class="button"  style='font-family: "Roboto Mono";' onclick="Roboto_Mono2()">Roboto Mono</button></div>
-                        <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
-                        <div class="column"><button class="button"  style='font-family: "OpenDyslexic Bold";' onclick="OpenDyslexic2()">Open Dyslexic</button></div>
+                          <div class="column">
+                            
+                      <div class="dropdown is-hoverable">
+                        <div class="dropdown-trigger">
+                          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+                            <span>Fonts</span>
+                            <span class="icon is-small">
+                              <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                          </button>
+                        </div>
+                        <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                          <div class="dropdown-content">
+                            <div class="dropdown-item">
+                              <div class="columns is-mobile is-vcentered">
+                                <div class="column"><button class="button"  style='font-family: "Open Sans";' onclick="OpenSans2()">Open Sans</button></div>
+                              <div class="column"><button class="button"  style='font-family: "Roboto Mono";' onclick="Roboto_Mono2()">Roboto Mono</button></div>
+                              <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
+    
+                            </div>                            
+                          </div>
 
+                            <div class="dropdown-item">
+                            <div class="columns is-mobile is-vcentered">
+                              <div class="column"><button class="button"  style='font-family: "Litereta";' onclick="Literata2()">Literata</button></div>
+  
+                              <div class="column"><button class="button"  style='font-family: "OpenDyslexic Bold";' onclick="OpenDyslexic2()">Open Dyslexic</button></div>
+
+                          </div></div>
+
+                          <div class="dropdown-item">
+                            <div class="columns is-mobile is-vcentered">
+  
+                              <div class="column"><button class="button"  style='font-family: "Oswald";' onclick="oswald2()">Oswald</button></div>
+                            <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
+  
+                            
+                            <div class="column"><button class="button"  style='font-family: "Textura";' onclick="Textura2()">Textura</button></div>
+  
+                          </div></div>
+
+                          </div>
+                        </div>
                       </div>
-                  </div>
-
-                  <div class="panel-block">
-                      <span class="panel-icon">
-                        <i class="fas fa-book" aria-hidden="true"></i>
-                      </span>
-                      <div class="columns is-mobile is-vcentered">
-                          <div class="column"><button class="button"  style='font-family: "Litereta";' onclick="Literata2()">Literata</button></div>
-
-                          <div class="column"><button class="button"  style='font-family: "Oswald";' onclick="oswald2()">Oswald</button></div>
-                        <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
-
-                        
-                        <div class="column"><button class="button"  style='font-family: "Textura";' onclick="Textura2()">Textura</button></div>
-
                       </div>
+
+
+
                   </div>
+                </div>
 
                     <div class="panel-block">
                       <p>Format</p>
@@ -109,46 +137,65 @@
                     </div>
 
 
-                    <div class="panel-block">
+                    <div style='padding-top: 15px; padding-bottom: 15px;' class="panel-block">
                       <p>Template Category Selector</p>
 
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      <div class="columns is-mobile is-vcentered"> 
+                        <div class="dropdown is-right is-hoverable">
+                          <div class="dropdown-trigger">
+                            <button  class="button is-green is-outlined is-fullwidth" aria-haspopup="true" aria-controls="dropdown-menu4">
+                              <span>Grab a template!</span>
+                              <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                              </span>
+                            </button>
+                          </div>
+                          <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                            <div class="dropdown-content">
+                              
+                              <div class="dropdown-item">
+                                <div class="column">
+                                  <div class="panel-block">
+                                    <a onclick="braint()"  class="button is-green is-outlined is-fullwidth">
+                                      Big Brain
+                                    </a>
+              
+                                    <a onclick="gotht()"  class="button is-green is-outlined is-fullwidth">
+                                      Goth
+                                    </a>
+              
+                                    <a onclick="raget()"  class="button is-green is-outlined is-fullwidth">
+                                      Rage
+                                    </a>
+                                </div>
+                              </div>
 
+                              <div class="dropdown-item">
+                                <div class="column">
+                                  <div class="panel-block">
+                                  <a onclick="questiont()"  class="button is-green is-outlined is-fullwidth">
+                                    Confuse
+                                  </a>
+            
+                                  <a onclick="conspiracyt()"  class="button is-green is-outlined is-fullwidth">
+                                    Conspiracy
+                                  </a>
+            
+                                  <a onclick="chadt()"  class="button is-green is-outlined is-fullwidth">
+                                    Chad
+                                  </a>
+                                </div></div>
 
-                      <!--<a  class="button is-green is-outlined is-fullwidth" style="margin-left: 10px" onclick="atb()">
-                        ...Using the ATB algorithm
-                      </a>-->
-                    </div>
-                    <div class="panel-block">
-                      <a onclick="braint()"  class="button is-green is-outlined is-fullwidth">
-                        Big Brain
-                      </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                      <a onclick="gotht()"  class="button is-green is-outlined is-fullwidth">
-                        Goth
-                      </a>
-
-                      <a onclick="raget()"  class="button is-green is-outlined is-fullwidth">
-                        Rage
-                      </a>
-
-
-                      <!--<a  class="button is-green is-outlined is-fullwidth" style="margin-left: 10px" onclick="atb()">
-                        ...Using the ATB algorithm
-                      </a>-->
-                    </div>
-                    <div class="panel-block">
-                      <a onclick="questiont()"  class="button is-green is-outlined is-fullwidth">
-                        Confuse
-                      </a>
-
-                      <a onclick="conspiracyt()"  class="button is-green is-outlined is-fullwidth">
-                        Conspiracy
-                      </a>
-
-                      <a onclick="chadt()"  class="button is-green is-outlined is-fullwidth">
-                        Chad
-                      </a>
-
+                        </div>
 
                       <!--<a  class="button is-green is-outlined is-fullwidth" style="margin-left: 10px" onclick="atb()">
                         ...Using the ATB algorithm
