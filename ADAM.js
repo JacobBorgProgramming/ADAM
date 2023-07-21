@@ -25,12 +25,12 @@ var templates_bigbrain = Array('./memetemplates/Dr-Evil-Laser.jpg','./memetempla
 
 var templates_goth = Array('./memetemplates/smilejoker.jpg','./memetemplates/sendamessage.jpg','./memetemplates/tiredofpretending.png','./memetemplates/advanceddarkness.jpg','./memetemplates/And-everybody-loses-their-minds.jpg','./memetemplates/spookycat.png','./memetemplates/fireskeleton.jpg','./memetemplates/beatlejuice3.jpg','./memetemplates/beatlejuice2.jpg','./memetemplates/beatlejuice1.jpg','./memetemplates/aprilno.jpg','./memetemplates/someone.png','./memetemplates/okgetin.jpg','./memetemplates/zombiecoaster.jpg','./memetemplates/spookystops.png','./memetemplates/burnskeleton.jpeg','./memetemplates/spookyskeleton2.jpg','./memetemplates/whatsthisjack2.jpg','./memetemplates/spookyskeleton.jpg','./memetemplates/edward.jpg','./memetemplates/whatsthis.jpg','./memetemplates/wednesdaycomp.jpg','./memetemplates/gomez.jpg')
 
-var templates_soy = Array('./memetemplates/sheepsoldier.jpg','./memetemplates/soyllet.jpg','./memetemplates/sadcat.jpg')
+var templates_soy = Array('./memetemplates/Ill-Just-Wait-Here.jpg','./memetemplates/plaguedoctorpanic.jpg','./memetemplates/plaguepew.png','./memetemplates/sheepsoldier.jpg','./memetemplates/soyllet.jpg','./memetemplates/sadcat.jpg')
 
 function versionm(){
 
-    versionnum = 'a1.8.4'
-    libversionnum = '1.1.2'
+    versionnum = 'a1.8.5'
+    libversionnum = '1.1.3'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length+templates_goth.length+templates_bigbrain.length+templates_soy.length
     console.log(versionnum)
 
@@ -200,10 +200,58 @@ function rd(){
 
     var template_r = templates_r[Math.floor(Math.random()*templates_r.length)];
 
+    var template_goth = templates_goth[Math.floor(Math.random()*templates_goth.length)];
+
+
     var punch = punches[Math.floor(Math.random()*punches.length)];
 
     var line = lines[Math.floor(Math.random()*lines.length)];
+    
 
+    if (emotion=='goth') {
+        var buildalert = 'Uh oh! You have encountered a partial algorithm function!'
+
+        var lines_goth = Array('spooky ');
+        var line_goth = lines_goth[Math.floor(Math.random()*lines_goth.length)];
+
+        var topics_goth = Array('family','artist','society');
+        var topic_goth = topics_goth[Math.floor(Math.random()*topics_goth.length)];
+
+
+        var goth_spooktober = Array();
+        var goth_family = Array('');
+        var goth_artist = Array();
+        var goth_society = Array();
+
+        if (topic_goth=='family') {
+//template_goth//
+            document.getElementById("outputtext").innerHTML = punch + line_goth + buildalert
+            document.getElementById("memebg").src = template_goth
+        }
+
+        if (topic_goth=='artist') {
+//template_goth//
+            document.getElementById("outputtext").innerHTML = punch+line_goth + buildalert
+            document.getElementById("memebg").src = template_goth
+        }
+
+        if (topic_goth=='society') {
+//template_goth//
+            document.getElementById("outputtext").innerHTML = punch+line_goth + buildalert
+            document.getElementById("memebg").src = template_goth
+        }
+
+        if (topic_goth=='spooktober') {
+//template_goth//
+            document.getElementById("outputtext").innerHTML = punch+line_goth + buildalert
+            document.getElementById("memebg").src = template_goth
+        }
+
+        
+
+        
+        
+    }
 
     if (emotion=='good') {
 ///libs

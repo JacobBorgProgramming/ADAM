@@ -211,12 +211,12 @@ function left(){
 }
 
 function whitetext(){
-    document.getElementById("memecontent").style = 'color: #ffffff;'
+    document.getElementById("memecontent").style = 'color: #ffffff; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #1a1a1a;'
 
 }
 
 function blacktext(){
-    document.getElementById("memecontent").style = 'color: #1a1a1a;'
+    document.getElementById("memecontent").style = 'color: #1a1a1a; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
 
 }
 
