@@ -255,3 +255,12 @@ slider2.oninput = function() {
     document.getElementById("positioncontrol2").style = 'left:' + x+';'+'top:' + y+';'
 
 }
+
+function settemp(){
+    
+    y = document.getElementById("tempinput").value
+    document.getElementById("memebg").src = y
+
+
+}
+
