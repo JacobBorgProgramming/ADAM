@@ -186,6 +186,16 @@ function Textura2(){
 
 }
 
+function Cyanotype2(){
+    document.getElementById("fontcontrol").style = 'font-family: "Cyanotype";'
+
+}
+
+function American2(){
+    document.getElementById("fontcontrol").style = 'font-family: "American Text";'
+
+}
+
 function OpenDyslexic2(){
     document.getElementById("fontcontrol").style = 'font-family: "OpenDyslexic Bold"; '
 
