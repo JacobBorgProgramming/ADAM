@@ -137,14 +137,14 @@ function Oswald(){
 }
 
 function change_size(){
-    
+
     size = document.getElementById("textsizeinput").value
     document.getElementById("output").style = 'font-size:' + size+';'
 
 }
 
 function light(){
-    
+
 
     document.getElementById("meme").style = 'meme'
     document.getElementById("mode").innerHTML = '<button onclick="dark()">Dark</button>'
@@ -152,7 +152,7 @@ function light(){
 }
 
 function dark(){
-    
+
     document.getElementById("meme").class = 'meme_dark'
     document.getElementById("mode").innerHTML = '<button onclick="light()">Light</button>'
 
@@ -203,7 +203,7 @@ function OpenDyslexic2(){
 
 
 function change_size2(){
-    
+
     size = document.getElementById("textsizeinput").value
     document.getElementById("output").style = 'font-size:' + size+';'
     document.getElementById("output2").style = 'font-size:' + size+';'
@@ -220,6 +220,16 @@ function left(){
     document.getElementById("output2").class = 'bottom-left'
 }
 
+
+
+function type(){
+
+    document.getElementById("type").innerHTML = '<a href="./mememaker.html" class="button is-green is-outlined is-fullwidth">Border Text</a><a href="./mememaker_twolinetext.html" class="button is-green is-outlined is-fullwidth">Classic Meme</a><a href="./mememaker_sidebyside.html" class="button is-green is-outlined is-fullwidth">1x2 Meme</a>'
+//    document.getElementById("counter").innerHTML = '<script src="https://cdn.counter.dev/script.js" data-id="e723b406-567b-475d-be1b-651ca897c0da" data-utcoffset="-7"></script>'
+
+}
+
+
 function whitetext(){
     document.getElementById("memecontent").style = 'color: #ffffff; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #1a1a1a;'
 
@@ -233,18 +243,18 @@ function blacktext(){
 
 var slider = document.getElementById("myRange");
 slider.oninput = function() {
-    
+
     positioncontrol.style = 'top: '+this.value+'px;';
-  } 
+  }
 
   var slider2 = document.getElementById("myRange2");
 slider2.oninput = function() {
-    
+
     output.style = 'left: '+this.value+'px;';
-  } 
+  }
 
   function setpo(){
-    
+
     y = document.getElementById("textyinput").value
     x = document.getElementById("textxinput").value
     document.getElementById("positioncontrol").style = 'left:' + x+';'+'top:' + y+';'
@@ -257,10 +267,16 @@ slider2.oninput = function() {
 }
 
 function settemp(){
-    
+
     y = document.getElementById("tempinput").value
     document.getElementById("memebg").src = y
 
 
 }
+function settemp2(){
 
+    y = document.getElementById("tempinput2").value
+    document.getElementById("memebg2").src = y
+
+
+}
