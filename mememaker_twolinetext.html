@@ -114,11 +114,98 @@
                           <i class="fas fa-book" aria-hidden="true"></i>
                         </span>
                         <div class="columns is-mobile is-vcentered">
-                            <div class="column"><button class="button" onclick="whitetext()">White Text</button></div>
-
-                            <div class="column"><button class="button" onclick="blacktext()">Black Text</button></div>
                           <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
-                          <div class="column"></div>
+                          <div class="column">
+                            <div class="dropdown is-right is-hoverable">
+                              <div class="dropdown-trigger">
+                                <button  class="button is-outlined is-fullwidth" aria-haspopup="true" aria-controls="dropdown-menu4">
+                                  <span>Top Color</span>
+                                  <span class="icon is-small">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                  </span>
+                                </button>
+                              </div>
+                              <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-item">
+                                      <div class="column">
+                                        <div class="panel-block">
+                                          <p>
+                                            <a onclick="whitetexttop()"  class="button is-outlined is-fullwidth">
+                                              White
+                                            </a>
+                                            <a onclick="blacktexttop()"  class="button is-outlined is-fullwidth">
+                                              Black
+                                            </a>
+                                          </p>
+                                      </div></div>
+
+                                      </div>
+                                      <div class="dropdown-item">
+                                        <div class="column">
+                                          <div class="panel-block">
+                                            <p><input class="input" type="text" name="template" id="colinputtop" placeholder="#HEX color">
+                                              <a onclick="setcoltop()"  class="button is-outlined is-fullwidth">
+                                                Set color
+                                              </a>
+                                            </p>
+                                        </div></div>
+
+                                        </div>
+
+
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </div>
+                          <div class="column">
+                            <div class="dropdown is-right is-hoverable">
+                              <div class="dropdown-trigger">
+                                <button  class="button is-outlined is-fullwidth" aria-haspopup="true" aria-controls="dropdown-menu4">
+                                  <span>Bottom Color</span>
+                                  <span class="icon is-small">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                  </span>
+                                </button>
+                              </div>
+                              <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                                <div class="dropdown-content">
+                                    <div class="dropdown-item">
+                                      <div class="column">
+                                        <div class="panel-block">
+                                          <p>
+                                            <a onclick="whitetextbottom()"  class="button is-outlined is-fullwidth">
+                                              White
+                                            </a>
+                                            <a onclick="blacktextbottom()"  class="button is-outlined is-fullwidth">
+                                              Black
+                                            </a>
+                                          </p>
+                                      </div></div>
+
+                                      </div>
+
+                                      <div class="dropdown-item">
+                                        <div class="column">
+                                          <div class="panel-block">
+                                            <p><input class="input" type="text" name="template" id="colinputbottom" placeholder="#HEX color">
+                                              <a onclick="setcolbottom()"  class="button is-outlined is-fullwidth">
+                                                Set color
+                                              </a>
+                                            </p>
+                                        </div></div>
+
+                                        </div>
+
+
+                                </div>
+                              </div>
+                            </div>
+
+
+                          </div>
 
                         </div>
                     </div>

@@ -240,6 +240,36 @@ function blacktext(){
 
 }
 
+function whitetexttop(){
+    document.getElementById("output").style = 'color: #ffffff; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #1a1a1a;'
+
+}
+
+function blacktexttop(){
+    document.getElementById("output").style = 'color: #1a1a1a; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
+
+}
+function whitetextbottom(){
+    document.getElementById("output2").style = 'color: #ffffff; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #1a1a1a;'
+
+}
+
+function blacktextbottom(){
+    document.getElementById("output2").style = 'color: #1a1a1a; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
+
+}
+
+function setcoltop(){
+  x = 'color: #'+document.getElementById("colinputtop").value+'; '
+    document.getElementById("output").style = x + '-webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
+
+}
+function setcolbottom(){
+  x = 'color: #'+document.getElementById("colinputbottom").value+'; '
+    document.getElementById("output2").style = x + '-webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
+
+}
+
 
 var slider = document.getElementById("myRange");
 slider.oninput = function() {
@@ -274,6 +304,14 @@ function settemp(){
 
 }
 function settemp2(){
+
+    y = document.getElementById("tempinput2").value
+    document.getElementById("memebg2").src = y
+
+
+}
+
+function setgut(){
 
     y = document.getElementById("tempinput2").value
     document.getElementById("memebg2").src = y
