@@ -241,32 +241,32 @@ function blacktext(){
 }
 
 function whitetexttop(){
-    document.getElementById("output").style = 'color: #ffffff; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #1a1a1a;'
+    document.getElementById("topcol").style = 'color: #ffffff; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #1a1a1a;'
 
 }
 
 function blacktexttop(){
-    document.getElementById("output").style = 'color: #1a1a1a; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
+    document.getElementById("topcol").style = 'color: #1a1a1a; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
 
 }
 function whitetextbottom(){
-    document.getElementById("output2").style = 'color: #ffffff; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #1a1a1a;'
+    document.getElementById("bottomcol").style = 'color: #ffffff; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #1a1a1a;'
 
 }
 
 function blacktextbottom(){
-    document.getElementById("output2").style = 'color: #1a1a1a; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
+    document.getElementById("bottomcol").style = 'color: #1a1a1a; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
 
 }
 
 function setcoltop(){
   x = 'color: #'+document.getElementById("colinputtop").value+'; '
-    document.getElementById("output").style = x + '-webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
+    document.getElementById("topcol").style = x + '-webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
 
 }
 function setcolbottom(){
   x = 'color: #'+document.getElementById("colinputbottom").value+'; '
-    document.getElementById("output2").style = x + '-webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
+    document.getElementById("bottomcol").style = x + '-webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
 
 }
 
