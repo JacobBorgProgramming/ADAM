@@ -318,3 +318,14 @@ function setgut(){
 
 
 }
+
+
+
+function fontpicker() {
+  var x = document.getElementById("fontmenu");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

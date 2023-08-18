@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" style="" class="dark_html" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ADAM</title>
+    <link rel="stylesheet" href="https://fonts.borgcreative.com/fonts.css">
+    <link rel="shortcut icon" href="./adamicon_BY.png" type="image/x-icon">
+    <link rel="stylesheet" href="./adam.css">
+    <script src="./headermenu.js"></script>
+    <script src="./ADAM.js"></script>
+    <script src="./adam_styles.js"></script>
+  </head>
+
+
+<header>
+  <div id="topmenu_new">
+<noscript>
+  <h3>Uh Oh!</h3>
+  <p>JavaScript is required in order to use ADAM.</p>
+  <p>ADAM is a web app built upon JavaScript and thus it is required.</p>
+</noscript>
+  </div>
+</header>
+
+  <body  onload="headermenu_new(), footermenu_new()">
+
+    <!--Begin primary doc-->
+<section class='' style="margin-top: 15px">
+
+  <div class="center is-third">
+    <div class="meme container-2" id="meme">
+      <p hidden style="text-align: center; margin-top: -75px; margin-right: 25px;"><img id="watermark" src="" width="50px" alt=""> </p>
+
+      <div class="content">
+        <div id="fontcontrol" style='font-family: "Oswald";'>
+        <div id="output"><p contenteditable="true" spellcheck="false" id="outputtext" style="text-align: center; padding-left: 0%;"></p></div>
+      </div>
+      </div>
+
+      <div class="card-image">
+            <img id="memebg" width="100%"  src="./adamicon_BY_fav.png" alt="Output Image">
+        </div>
+
+  </div>
+
+  </div>
+
+<div class="center is-half" style="padding-top: 25px;">
+  <div><a onclick="rd()"  class="button-alt">
+    Make me a meme!
+  </a></div>
+
+  <div style="margin:25px; padding:15px;">
+    <a class="button" onclick="fontpicker()">
+      Text Style
+    </a>
+    <div style="display: none; padding: 5px;" id="fontmenu">
+      <div style="padding: 5px;">
+        <p><input id="textsizeinput" class="type-input" type="text" name="" value="" placeholder="Input size..."><button class="" onclick="change_size()">Set Size</button></p>
+      </div>
+      <div>
+        <p>
+        <button  style='font-family: "Open Sans";' onclick="OpenSans2()">Open Sans</button>
+        <button  style='font-family: "Roboto Mono";' onclick="Roboto_Mono2()">Roboto Mono</button>
+        <button  style='font-family: "OpenDyslexic Bold";' onclick="OpenDyslexic2()">Open Dyslexic</button>
+      </p>
+<!---->
+      <p>
+        <button style='font-family: "Oswald";' onclick="oswald2()">Oswald</button>
+        <button style='font-family: "Cyanotype";' onclick="Cyanotype2()">Cyanotype</button>
+        <button style='font-family: "American Text";' onclick="American2()">American</button>
+
+      </p>
+      </div>
+    </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+</section>
+
+
+
+
+  </body>
+
+  <footer>
+    <script src="./footermenu.js"></script>
+    <div id="footermenu"></div>
+  </footer>
+</html>

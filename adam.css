@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "FiraCode";
+    src: url("./Fira_Code/FiraCode-VariableFont_wght.ttf");
+  }
+
+html{
+  font-family: "FiraCode";
+}
+
+#topmenu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#foot{
+
+    bottom: 0px;
+    left: 0px;
+
+}
+
+/* Container holding the image and the text */
+.container {
+ position: relative;
+ text-align: center;
+ color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+ position: absolute;
+ bottom: 8px;
+ left: 10%;
+}
+
+.positioncontrol {
+ position: absolute;
+ top: 8px;
+ left: 0%;
+ width: 100%;
+}
+/* Top left text */
+.top-left {
+ position: absolute;
+ top: 0px;
+ left: 0%;
+
+}
+
+.top-right {
+  position: absolute;
+  top: 25px;
+  right: 10%;
+}
+
+.top {
+  position: absolute;
+  top: 25px;
+  left: 10%;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 25px;
+  left: 10%;
+}
+
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.menu{
+  background-color: #fed000;
+  position: sticky;
+  padding:15px;
+  margin-left: -15px;
+  margin-top:-15px;
+  top: 0px;
+  left: 0px;
+
+}
+
+body{
+
+}
+
+a{
+  color: #1a1a1a;
+  font-family: "FiraCode";
+}
+a:hover{
+  font-family: "FiraCode";
+  color: #fed000;
+}
+
+button{
+  font-family: "FiraCode";
+  color: #1a1a1a;
+  background: none;
+  border: none;
+}
+button:hover{
+  font-family: "FiraCode";
+  color: #fed000;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.type-input{
+  font-family: "FiraCode";
+  color: #1a1a1a;
+  border: solid;
+  border-color: #1a1a1a;
+  border-radius: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/*
+<input type="text" class="type-input" name="" value="" placeholder="">
+*/
+
+.button-alt{
+  background-color: #fed000;
+  color: #1a1a1a;
+  border: solid;
+  border-color: #1a1a1a;
+  border-radius: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+
+}
+
+.button-alt:hover {
+
+  background-color: #1a1a1a;
+  color: #fed000;
+  border: solid;
+  border-color: #1a1a1a;
+  border-radius: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+    cursor: pointer;
+}
+
+.button{
+  background-color: #fff;
+  color: #fed000;
+  border: solid;
+  border-color: #fed000;
+  border-radius: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #fed000;
+  color: #1a1a1a;
+  border: solid;
+  border-color: #fed000;
+  border-radius: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+    cursor: pointer;
+}
+
+.columns{
+  width: 100vw;
+  padding: 15px;
+  column-gap: 15px;
+  column-count: 2;
+}
+
+.column{
+padding: 5px;
+
+}
+
+.is-half{
+  width: 50vw;
+}
+.is-quarter{
+  width: 25vw;
+}
+
+.is-third{
+  width: 33vw;
+}
+
+.is-3quarter{
+
+  width: 75vw;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="is-"] {
+    width: 100%;
+  }
+}
+.center{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+  text-align: left;
+  width:50vw
+}
+.container-2 {
+    position: relative;
+    text-align: center;
+    border: solid;
+    border-color: #1a1a1a;
+    border-radius: 0px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+
+  p.container-2 {
+      width: 45%;
+    }
