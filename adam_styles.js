@@ -259,6 +259,16 @@ function blacktextbottom(){
 
 }
 
+function whitetextwater(){
+    document.getElementById("watercol").style = 'color: rgba(255, 255, 255, 0.5); -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #1a1a1a;'
+
+}
+
+function blacktextwater(){
+    document.getElementById("watercol").style = 'color: rgba(0, 0, 0, 0.5); -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
+
+}
+
 function setcoltop(){
   x = 'color: #'+document.getElementById("colinputtop").value+'; '
     document.getElementById("topcol").style = x + '-webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
@@ -267,6 +277,12 @@ function setcoltop(){
 function setcolbottom(){
   x = 'color: #'+document.getElementById("colinputbottom").value+'; '
     document.getElementById("bottomcol").style = x + '-webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
+
+}
+
+function setcolwater(){
+  x = 'color: #'+document.getElementById("colinputbottom").value+'; '
+    document.getElementById("watercol").style = x + '-webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;'
 
 }
 

@@ -48,7 +48,7 @@
 
                 <img id="memebg" src="./adamicon_BY_fav.png" alt="" style="width:100%;">
                 <div id="fontcontrol" style='font-family: "Oswald";'>
-                <div hidden class="centered">Centered</div>
+                <div id="watercol" contenteditable="true" spellcheck="false" class="bottom-right watermark">Watermark</div>
                 <div class="positioncontrol" id="positioncontrol" ><div id="topcol"><div  id="output" class="top" contenteditable="true" spellcheck="false" >Top Funny</div></div></div>
                 <div id="bottomcol"><div  id="output2" class="bottom" contenteditable="true" spellcheck="false" >Bottom Funny</div></div>
                 </div>
@@ -145,15 +145,15 @@
                   </p>
                   <h6>Bottom Text</h6>
                   <p>
-                    <button class="btn btn-link" onclick="whitetextbottom()"  class="button is-outlined is-fullwidth">
+                    <button class="btn btn-link" onclick="whitetextbottom(), whitetextwater()"  class="button is-outlined is-fullwidth">
                       White
                     </button>
-                    <button class="btn btn-link" onclick="blacktextbottom()"  class="button is-outlined is-fullwidth">
+                    <button class="btn btn-link" onclick="blacktextbottom(), blacktextwater()"  class="button is-outlined is-fullwidth">
                       Black
                     </button>
                   </p>
                   <p><input class="type-input" type="text" name="color" id="colinputbottom" placeholder="#HEX color">
-                    <a class="btn btn-dark" onclick="setcolbottom()"  class="button is-outlined is-fullwidth">
+                    <a class="btn btn-dark" onclick="setcolbottom(), setcolwater()"  class="button is-outlined is-fullwidth">
                       Set color
                     </a>
                   </p>

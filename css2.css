@@ -98,13 +98,20 @@
     bottom: 25px;
     left: 10%;
   }
+  .center {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+  }
 
 
-
+.watermark{
+  opacity: 0.5;
+}
   /* Bottom right text */
   .bottom-right {
     position: absolute;
-    bottom: 8px;
+    bottom: 25px;
     right: 16px;
   }
 
