@@ -94,9 +94,9 @@ html{
 }
 
 body{
-
+  overflow-x: hidden;
 }
-
+/*
 a{
   color: #1a1a1a;
   font-family: "FiraCode";
@@ -105,7 +105,9 @@ a:hover{
   font-family: "FiraCode";
   color: #fed000;
 }
+*/
 
+/*
 button{
   font-family: "FiraCode";
   color: #1a1a1a;
@@ -119,7 +121,7 @@ button:hover{
   border: none;
   cursor: pointer;
 }
-
+*/
 .type-input{
   font-family: "FiraCode";
   color: #1a1a1a;
@@ -135,93 +137,10 @@ button:hover{
 <input type="text" class="type-input" name="" value="" placeholder="">
 */
 
-.button-alt{
-  background-color: #fed000;
-  color: #1a1a1a;
-  border: solid;
-  border-color: #1a1a1a;
-  border-radius: 0px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-decoration: none;
-
-}
-
-.button-alt:hover {
-
-  background-color: #1a1a1a;
-  color: #fed000;
-  border: solid;
-  border-color: #1a1a1a;
-  border-radius: 0px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-decoration: none;
-    cursor: pointer;
-}
-
-.button{
-  background-color: #fff;
-  color: #fed000;
-  border: solid;
-  border-color: #fed000;
-  border-radius: 0px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-decoration: none;
-}
-
-.button:hover {
-  background-color: #fed000;
-  color: #1a1a1a;
-  border: solid;
-  border-color: #fed000;
-  border-radius: 0px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-decoration: none;
-    cursor: pointer;
-}
-
-.columns{
-  width: 100vw;
-  padding: 15px;
-  column-gap: 15px;
-  column-count: 2;
-}
-
-.column{
-padding: 5px;
-
-}
-
-.is-half{
-  width: 50vw;
-}
-.is-quarter{
-  width: 25vw;
-}
-
-.is-third{
-  width: 33vw;
-}
-
-.is-3quarter{
-
-  width: 75vw;
-}
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="is-"] {
+  [class*="memebg"] {
     width: 100%;
   }
 }

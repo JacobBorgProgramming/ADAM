@@ -5,7 +5,7 @@ function headermenu(){
 
 function headermenu_new(){
 
-    document.getElementById("topmenu_new").innerHTML = '<nav class="menu"><section><div><a onclick="menubutton()" class="center"><img src="./adamicon_BY_fav.png" width="75px" alt=""></a>  </div></section><div id="menu" style="display: none;" class="is-half center"><p> <a class="button-alt" href="./index.html">Home</a> </p><p> <a class="button-alt" href="./generator.html">Generator</a> <a class="button-alt" href="./mememaker.html">Meme Maker</a></p><p> <a class="button-alt" href="./about.html">About</a> <a class="button-alt" href="./privacy.html">Privacy</a></p></div></nav>'
+    document.getElementById("topmenu_new").innerHTML = '<nav class="navbar navbar-expand-lg" style="background-color: #fed000;"><div class="container-fluid"><a class="navbar-brand" href="./index.html"> <img src="./adamicon_BY_fav.png" width="70px" alt=""> </a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav"><li class="nav-item"><a class="nav-link" aria-current="page" href="./generator.html">Generator</a></li><li class="nav-item"><a class="nav-link" href="./memelab.html">MemeLab</a></li><li class="nav-item"><a class="nav-link" href="./about.html">About</a></li><li class="nav-item"><a class="nav-link" href="./privacy.html">Privacy</a></li></ul></div></div></nav>'
 }
 
 

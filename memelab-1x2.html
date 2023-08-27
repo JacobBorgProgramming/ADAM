@@ -22,7 +22,7 @@
 
 
 
-  <body  onload="headermenu_new(), footermenu_new(), versionm()">
+  <body  onload="headermenu_new(), footermenu_new()">
     <header>
 
       <div id="topmenu_new">
@@ -37,36 +37,60 @@
 
       <div class="container-sm d-flex justify-content-center">
 
-      <div class="meme" id="meme" style=" width: 50%; padding-top: 10px;">
-          <p hidden style="text-align: right; margin-top: -75px"><img id="watermark" src="" width="50px" alt=""> </p>
-      <div class="container-2">
-          <div class="">
-            <div class="content">
-              <div id="fontcontrol" style='font-family: "Oswald";'>
-              <div id="output"><p contenteditable="true" spellcheck="false" id="outputtext" style="text-align: left; padding-left: 5%;">Type funny here</p></div>
+        <div class="meme" id="meme" style=" width: 60%; padding-top: 10px;">
+
+          <div class="card container">
+            <div id="fontcontrol" style='font-family: "Oswald";'>
+
+            <div class="card-content">
+              <div class="container text-center" id="memecontent" style="color:#1a1a1a; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #ffffff;">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <div class="positioncontrol" id="positioncontrol" ><div  id="output" class="top" contenteditable="true" spellcheck="false" >Top Funny</div></div>
+                    <img id="memebg" src="./adamicon_BY_fav.png" alt="" style="width:100%; margin-top: 35px;">
+                  </div>
+                  <div class="col">
+                    <div class="positioncontrol" id="positioncontrol" ><div  id="output2" class="top-right" contenteditable="true" spellcheck="false" >Other Top Funny</div></div>
+                    <img id="memebg2" src="./adamicon_BY_fav.png" alt="" style="width:100%; margin-top: 35px;">
+                  </div>
+                </div>
+              </div>
+
+
+                </div>
+
+              </div>
+
+              </div>
             </div>
-            </div>
-          </div>
-          <div>
-              <p>
-                <img class="memebg" width="100%" style="padding-left: 0px;padding-right: 0px;padding-bottom: 15px;" id="memebg"  src="./adamicon_BY_fav.png" alt="Output Image">
-              </p>
-            </div>
-        </div>
-      </div>
       </div>
 
 
       <div class="card container-md" style="width: 100%; margin-top:25px;">
         <div class="card-body">
-          <h5 class="card-title">Meme Generator</h5>
-          <h6 class="card-subtitle mb-2 text-body-secondary">Version <span id="version"></span></h6>
-          <p class="card-text">
-            <a onclick="rd()"  class="btn btn-dark">
-              Make me a meme!
-            </a>
-          </p>
+          <h5 class="card-title">MemeLab</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Brew your meme</h6>
+          <p class="card-text"></p>
           <div class="accordion accordion-flush container-sm" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Template
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                  <p><input class="type-input" type="text" name="template" id="tempinput" placeholder="Template Link">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                      <button onclick="settemp_()" type="button" class="btn btn-dark">Load Left Template</button>
+                      <button onclick="settemp_2()" type="button" class="btn btn-dark">Load Right Template</button>
+                    </div>
+                  </p>
+
+                   </div>
+              </div>
+            </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
@@ -91,6 +115,28 @@
                 </div>
               </div>
             </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Text Color
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  <h6></h6>
+                  <p>
+                    <button class="btn btn-link" onclick="whitetext()"  class="button is-outlined is-fullwidth">
+                      White
+                    </button>
+                    <button class="btn btn-link" onclick="blacktext()"  class="button is-outlined is-fullwidth">
+                      Black
+                    </button>
+                  </p>
+
+                   </div>
+              </div>
+            </div>
+          </div>
           </div>
           <center>
             <p class="card-text">

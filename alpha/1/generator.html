@@ -1,0 +1,192 @@
+<html lang="en" style="" class="dark_html" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADAM Project</title>
+    <link rel="stylesheet" href="https://fonts.borgcreative.com/fonts.css">
+    <link rel="shortcut icon" href="./adamwatermark.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css2.css">
+    <link rel="stylesheet" href="./bulma/css/bulma.css">
+    <link rel="stylesheet" href="./adam.css">
+
+
+    <script src="./privacy.js"></script>
+<script src="https://cdn.counter.dev/script.js" data-id="e723b406-567b-475d-be1b-651ca897c0da" data-utcoffset="-7"></script>
+  </head>
+
+<header style="margin-bottom: 50px;">
+  <script src="./headermenu.js"></script>
+
+<div id="topmenu">
+
+
+</div>
+
+
+
+</div>
+    <!--<div id="mode" style="position: fixed; right: 10px; bottom: 10px;"> <button onclick="light()">Light</button> </div>-->
+
+</header>
+
+
+    <body style="padding: 25px;"  onload="footermenu(), headermenu(), versionm(), privacystatement()">
+
+
+
+
+<div id="privacy">
+
+</div>
+
+        <div class="columns is-centered ">
+
+
+            <div class="column is-half ">
+                <nav class="panel" style="background-color: white;">
+                    <p class="panel-heading">
+                      Controls
+                    </p>
+
+                    <div class="panel-block ">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      <input class="input" type="text" name="text size" id="textsizeinput" placeholder="Input size..."> <button class="button" onclick="change_size()">Set Size</button>
+                    </div>
+
+
+
+
+                    <div class="panel-block">
+                      <span class="panel-icon">
+                        <i class="fas fa-book" aria-hidden="true"></i>
+                      </span>
+                      <div class="columns is-mobile is-vcentered">
+                          <div class="column">
+
+                      <div class="dropdown is-hoverable">
+                        <div class="dropdown-trigger">
+                          <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+                            <span>Fonts</span>
+                            <span class="icon is-small">
+                              <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                          </button>
+                        </div>
+                        <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                          <div class="dropdown-content">
+                            <div class="dropdown-item">
+                              <div class="columns is-mobile is-vcentered">
+                                <div class="column"><button class="button"  style='font-family: "Open Sans";' onclick="OpenSans2()">Open Sans</button></div>
+                              <div class="column"><button class="button"  style='font-family: "Roboto Mono";' onclick="Roboto_Mono2()">Roboto Mono</button></div>
+                              <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
+
+                            </div>                            </div>
+
+                            <div class="dropdown-item">
+                            <div class="columns is-mobile is-vcentered">
+                              <div class="column"><button class="button"  style='font-family: "Litereta";' onclick="Literata2()">Literata</button></div>
+
+                              <div class="column"><button class="button"  style='font-family: "OpenDyslexic Bold";' onclick="OpenDyslexic2()">Open Dyslexic</button></div>
+
+                          </div></div>
+
+                          <div class="dropdown-item">
+                            <div class="columns is-mobile is-vcentered">
+
+                              <div class="column"><button class="button"  style='font-family: "Oswald";' onclick="oswald2()">Oswald</button></div>
+                            <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
+
+
+                            <div class="column"><button class="button"  style='font-family: "Cyanotype";' onclick="Cyanotype2()">Cyanotype</button></div>
+
+                          </div></div>
+
+                          <div class="dropdown-item">
+                            <div class="columns is-mobile is-vcentered">
+
+                              <div class="column"><button class="button"  style='font-family: "American Text";' onclick="American2()">American</button></div>
+                            <!--<div class="column"><button  class="button" style='font-family: "Open Sans";' onclick="literata()">Literata</button></div>-->
+
+
+                            <div class="column"><button class="button"  style='font-family: "Textura";' onclick="Textura2()">Textura</button></div>
+
+                          </div></div>
+
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+
+
+
+                  </div>
+                </div>
+
+
+
+
+
+                    <div class="panel-block">
+                      <a onclick="rd()"  class="button is-green is-outlined is-fullwidth">
+                        Make me a meme!
+                      </a>
+
+
+                      <!--<a  class="button is-green is-outlined is-fullwidth" style="margin-left: 10px" onclick="atb()">
+                        ...Using the ATB algorithm
+                      </a>-->
+                    </div>
+                  </nav>
+
+
+                <script src="./ADAM.js"></script>
+                <script src="./adam_styles.js"></script>
+
+            </div>
+
+
+            <div class="column is-half">
+                <div class="meme" id="meme" style=" width: 60%; padding-top: 10px;">
+
+                    <p hidden style="text-align: right; margin-top: -75px; margin-right: 25px;"><img id="watermark" src="" width="50px" alt=""> </p>
+                <!---->
+                <div class="card">
+
+                    <div class="card-content">
+
+
+                      <div class="content">
+                        <div id="fontcontrol" style='font-family: "Oswald";'>
+                        <div id="output"><p contenteditable="true" spellcheck="false" id="outputtext" style="text-align: left; padding-left: 5%;"></p></div>
+                      </div>
+                      </div>
+                    </div>
+
+                    <div class="card-image">
+                        <figure class="image is-4by4">
+                          <img style="padding-left: 15px;padding-right: 15px;padding-bottom: 15px;" id="memebg"  src="./adamwatermark.png" alt="Output Image">
+                        </figure>
+                      </div>
+                  </div>
+
+                </div>
+
+            </div>
+          </div>
+
+
+</body>
+
+<footer id="foot">
+    <center>
+        <h6 style="padding-left: 10px; padding-bottom: 2px;">ADAM Project <span id="version2"></span></h6>
+
+    </center>
+    <script src="./footermenu.js"></script>
+    <div id="footermenu"></div>
+
+</footer>
+</html>

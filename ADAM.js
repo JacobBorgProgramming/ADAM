@@ -29,7 +29,7 @@ var templates_soy = Array('./memetemplates/Ill-Just-Wait-Here.jpg','./memetempla
 
 function versionm(){
 
-    versionnum = 'a1.9.1'
+    versionnum = 'a2.0.0'
     libversionnum = '1.1.3'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length+templates_goth.length+templates_bigbrain.length+templates_soy.length
     console.log(versionnum)

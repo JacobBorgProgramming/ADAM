@@ -311,6 +311,21 @@ function settemp2(){
 
 }
 
+function settemp_(){
+
+    y = document.getElementById("tempinput").value
+    document.getElementById("memebg").src = y
+
+
+}
+function settemp_2(){
+
+    y = document.getElementById("tempinput").value
+    document.getElementById("memebg2").src = y
+
+
+}
+
 function setgut(){
 
     y = document.getElementById("tempinput2").value
