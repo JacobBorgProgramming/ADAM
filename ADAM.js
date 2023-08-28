@@ -6,19 +6,19 @@ var templates = Array('./memetemplates/libertydoge.jpeg','./memetemplates/jbques
 var templates_g = Array('./memetemplates/mjsmile.jpeg','./memetemplates/cappy.jpeg','./memetemplates/smartfrog.png','./memetemplates/djtfrog.jpeg','./memetemplates/djtcorrects.jpeg','./memetemplates/wojacklook.png','./memetemplates/derpcat.jpeg','./memetemplates/happypossum.jpeg','./memetemplates/exciteddjt.jpeg','./memetemplates/pooh.jpeg','./memetemplates/volume.jpeg','./memetemplates/crusadergasp.png','./memetemplates/waddles.jpeg','./memetemplates/spongehappy.jpeg','./memetemplates/spongelaugh.jpeg','./memetemplates/ohyea.jpeg','./memetemplates/jimwatch.jpeg','./memetemplates/fancypooh.jpeg','./memetemplates/frogsmirk.jpeg','./memetemplates/frogsmile.jpeg','./memetemplates/djthappy.jpeg');
 
 //bad
-var templates_b = Array('./memetemplates/sadfrog.jpeg','./memetemplates/angrygnome.jpeg','./memetemplates/ozzywat.jpeg','./memetemplates/planktonyell.jpeg','./memetemplates/rockstop.jpeg','./memetemplates/cry.jpeg','./memetemplates/cappy.jpeg','./memetemplates/sadstitch.jpeg','./memetemplates/chyna.jpeg','./memetemplates/mjbothered.jpeg','./memetemplates/ronaldpain.png','./memetemplates/blueyreaction.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/ghost.png','./memetemplates/djtcringe.jpeg','./memetemplates/yelljack.png','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/hmmm.jpeg','./memetemplates/dontlikesound.jpeg','./memetemplates/everythingisfinefish.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/fedfish.jpeg','./memetemplates/grumpycat.jpeg','./memetemplates/muskgun.jpeg','./memetemplates/rageturtle.jpeg','./memetemplates/realsponge.jpeg','./memetemplates/powerofthesun.jpeg','./memetemplates/screaminjoeglowred.jpeg','./memetemplates/soidpanick.jpeg','./memetemplates/thanksreconsider.jpeg','./memetemplates/tableflip.jpeg','./memetemplates/sus.jpeg','./memetemplates/kfcnuggets.png','./memetemplates/screaminglib.017.png','./memetemplates/dontdoitagaingiga.png','./memetemplates/sadjoe.webp','./memetemplates/johncena.png','./memetemplates/thisisfine.jpeg','./memetemplates/thewhat.jpeg','./memetemplates/panickelmo.jpeg','./memetemplates/madarthur.jpeg','./memetemplates/madfish.jpeg','./memetemplates/madmonke.jpeg','./memetemplates/madpat.jpeg','./memetemplates/knifesquirrel.jpeg','./memetemplates/leavingsponge.jpeg','./memetemplates/krabspanic.jpeg','./memetemplates/crusadetime.jpeg','./memetemplates/frograge.jpeg','./memetemplates/disturbsquid.jpeg','./memetemplates/bert.jpeg','./memetemplates/burnskeleton.jpeg','./memetemplates/aaa.jpeg');
+var templates_b = Array('./memetemplates/djtmugshot.jpg',' ./memetemplates/sadfrog.jpeg','./memetemplates/angrygnome.jpeg','./memetemplates/ozzywat.jpeg','./memetemplates/planktonyell.jpeg','./memetemplates/rockstop.jpeg','./memetemplates/cry.jpeg','./memetemplates/cappy.jpeg','./memetemplates/sadstitch.jpeg','./memetemplates/chyna.jpeg','./memetemplates/mjbothered.jpeg','./memetemplates/ronaldpain.png','./memetemplates/blueyreaction.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/ghost.png','./memetemplates/djtcringe.jpeg','./memetemplates/yelljack.png','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/hmmm.jpeg','./memetemplates/dontlikesound.jpeg','./memetemplates/everythingisfinefish.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/fedfish.jpeg','./memetemplates/grumpycat.jpeg','./memetemplates/muskgun.jpeg','./memetemplates/rageturtle.jpeg','./memetemplates/realsponge.jpeg','./memetemplates/powerofthesun.jpeg','./memetemplates/screaminjoeglowred.jpeg','./memetemplates/soidpanick.jpeg','./memetemplates/thanksreconsider.jpeg','./memetemplates/tableflip.jpeg','./memetemplates/sus.jpeg','./memetemplates/kfcnuggets.png','./memetemplates/screaminglib.017.png','./memetemplates/dontdoitagaingiga.png','./memetemplates/sadjoe.webp','./memetemplates/johncena.png','./memetemplates/thisisfine.jpeg','./memetemplates/thewhat.jpeg','./memetemplates/panickelmo.jpeg','./memetemplates/madarthur.jpeg','./memetemplates/madfish.jpeg','./memetemplates/madmonke.jpeg','./memetemplates/madpat.jpeg','./memetemplates/knifesquirrel.jpeg','./memetemplates/leavingsponge.jpeg','./memetemplates/krabspanic.jpeg','./memetemplates/crusadetime.jpeg','./memetemplates/frograge.jpeg','./memetemplates/disturbsquid.jpeg','./memetemplates/bert.jpeg','./memetemplates/burnskeleton.jpeg','./memetemplates/aaa.jpeg');
 
 //questioning
 var templates_q = Array('./memetemplates/confusedjacky.jpg','./memetemplates/cappy.jpeg','./memetemplates/dewaeconfused.jpeg','./memetemplates/djtcringe.jpeg','./memetemplates/planktonhands.jpeg','./memetemplates/johncena.png','./memetemplates/mygoals.jpeg','./memetemplates/mike.jpeg','./memetemplates/jones.jpg','./memetemplates/calculateglow.jpeg','./memetemplates/calculate.jpeg','./memetemplates/confused.jpeg','./memetemplates/spongewhat.jpeg','./memetemplates/whatcat.jpeg','./memetemplates/jbquestions.053.jpeg','./memetemplates/whatjack.jpeg','./memetemplates/holup.jpeg','./memetemplates/confusedcat.jpeg');
 
 //rage
-var templates_r = Array('./memetemplates/maddoge.jpg','./memetemplates/hulkyell.jpg','./memetemplates/anger.jpg','./memetemplates/surrealanger.jpg','./memetemplates/sbfplot.jpeg','./memetemplates/gnomerevolt.jpeg','./memetemplates/planktonevil.png','./memetemplates/crusaderage.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/ronaldpain.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/kermitrage.jpeg','./memetemplates/hyperkyle.jpeg','./memetemplates/frograge.jpeg','./memetemplates/ernie.jpeg');
+var templates_r = Array('./memetemplates/djtmugshot.jpg','./memetemplates/maddoge.jpg','./memetemplates/hulkyell.jpg','./memetemplates/anger.jpg','./memetemplates/surrealanger.jpg','./memetemplates/sbfplot.jpeg','./memetemplates/gnomerevolt.jpeg','./memetemplates/planktonevil.png','./memetemplates/crusaderage.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/ronaldpain.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/kermitrage.jpeg','./memetemplates/hyperkyle.jpeg','./memetemplates/frograge.jpeg','./memetemplates/ernie.jpeg');
 
 //conspiracy
 var templates_c = Array('./memetemplates/Laughing-Villains.jpg','./memetemplates/sbfplot.jpeg','./memetemplates/planktonevil.png','./memetemplates/npccrowd.jpeg','./memetemplates/wizardorb.jpeg','./memetemplates/conspiracytom.jpeg','./memetemplates/1984.jpeg','./memetemplates/zurgreading.png','./memetemplates/ponder.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/calculate.jpeg','./memetemplates/conspiracyal.jpeg')
 
 //chad
-var templates_chad = Array('./memetemplates/I-Should-Buy-A-Boat-Cat.jpg','./memetemplates/I-Too-Like-To-Live-Dangerously.jpg','./memetemplates/gigachad1.jpg','./memetemplates/chadbateman.png','./memetemplates/patphone.png','./memetemplates/patsmile.jpeg','./memetemplates/stillerbased.jpeg','./memetemplates/basedpat.jpeg','./memetemplates/patmusic.jpeg','./memetemplates/benglow.jpeg')
+var templates_chad = Array('./memetemplates/djtmugshot.jpg','./memetemplates/I-Should-Buy-A-Boat-Cat.jpg','./memetemplates/I-Too-Like-To-Live-Dangerously.jpg','./memetemplates/gigachad1.jpg','./memetemplates/chadbateman.png','./memetemplates/patphone.png','./memetemplates/patsmile.jpeg','./memetemplates/stillerbased.jpeg','./memetemplates/basedpat.jpeg','./memetemplates/patmusic.jpeg','./memetemplates/benglow.jpeg')
 // './memetemplates/sbfplot.jpeg',
 //Big Brain
 var templates_bigbrain = Array('./memetemplates/Dr-Evil-Laser.jpg','./memetemplates/saysomethingpenguin.png','./memetemplates/smartsponge.jpeg','./memetemplates/smartguy.jpg','./memetemplates/patsmartdumb.jpg','./memetemplates/timglow.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/calculateglow.jpeg','./memetemplates/universemind.jpeg')
@@ -29,8 +29,8 @@ var templates_soy = Array('./memetemplates/Ill-Just-Wait-Here.jpg','./memetempla
 
 function versionm(){
 
-    versionnum = 'a2.0.0'
-    libversionnum = '1.1.3'
+    versionnum = 'a2.1.1'
+    libversionnum = '1.1.4'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length+templates_goth.length+templates_bigbrain.length+templates_soy.length
     console.log(versionnum)
 
@@ -43,8 +43,14 @@ function versionm(){
     document.getElementById("version2").innerHTML = versionnum
 }
 
+/*
+'good','bad','rage','good','bad','rage','good','bad','rage','gm','goth'
 
-var emotions = Array('good','bad','rage','good','bad','rage','good','bad','rage','gm');
+'good','bad','rage'
+
+'mom','feds','libs','weak','btc','ai'
+*/
+var emotions = Array('good','bad','rage');
 var topics = Array('mom','feds','libs','weak','btc','ai');
 
 
@@ -80,9 +86,16 @@ var lines_g_libs = Array('egg prices go up ','inflation is up (isnt that what in
 var lines_b_libs = Array('Trump buys McDonalds ','you homestead ','homesteaders are happy and healthy ','someone refuses to eat ze bugz ','you dont want their fake milk ');
 var lines_r_libs = Array('you buy steak ','you dont eat ze bugz','you mention inflation ','you homestead ','conservatives mention the border ','someone doesnt get the jab ','doesnt partake in the fiat scam ');
 
+//soy
+var topics_soy = Array('redditors ','commies ','keyboard commies ')
+var lines_when_soy = Array('when the ','when ')
+var lines_g_soy = Array('bread lines are full ','means of production collapse ','national currency is worthless ')
+var lines_g2_soy = Array('you take ','a big company ','there is skyrocketing inflation ','their opposition is sent to gulags ')
+var lines_b_soy = Array('','')
+var lines_r_soy = Array('','')
 
 //weak
-var topics_weak = Array('weaklings ','reddit mods ','discord mods ','nerds ');
+var topics_weak = Array('dweebs ','weaklings ','reddit mods ','discord mods ','nerds ');
 var lines_g_weak = Array('you avoid physical contact by being a meme moderator ','they bully someone for ','they finally when they finally leave their parents houses ','they finally get a real job ','they buy a new videogame ','they ban a memer because they made a mean moderator meme ');
 var lines_g2_weak = Array('playing Hogwarts Legacy ','playing Fortnite ','having a job ','not having any Twitch sponsers ','having good relationships with their parents ','have a working car ','having an education ','game on Playstation ','game on xBox ','game on PC ');
 
@@ -183,10 +196,14 @@ function rd(){
     var topic_weak = topics_weak[Math.floor(Math.random()*topics_weak.length)];
     var line_g_weak = lines_g_weak[Math.floor(Math.random()*lines_g_weak.length)];
     var line_g2_weak = lines_g2_weak[Math.floor(Math.random()*lines_g2_weak.length)];
-
     var line_b_weak = lines_b_weak[Math.floor(Math.random()*lines_b_weak.length)];
     var line_r_weak = lines_r_weak[Math.floor(Math.random()*lines_r_weak.length)];
 
+    var topic_soy = topics_mom[Math.floor(Math.random()*topics_soy.length)];
+    var line_g_soy = lines_g_mom[Math.floor(Math.random()*lines_g_soy.length)];
+    var line_g_soy = lines_g_mom[Math.floor(Math.random()*lines_g2_soy.length)];
+    var line_b_soy = lines_b_mom[Math.floor(Math.random()*lines_b_soy.length)];
+    var line_r_soy = lines_r_mom[Math.floor(Math.random()*lines_r_soy.length)];
 
     var subject = subjects[Math.floor(Math.random()*subjects.length)];
 
@@ -217,11 +234,13 @@ function rd(){
         var topics_goth = Array('family','artist','society');
         var topic_goth = topics_goth[Math.floor(Math.random()*topics_goth.length)];
 
-
         var goth_spooktober = Array();
         var goth_family = Array('');
         var goth_artist = Array();
         var goth_society = Array();
+
+        console.log(line_goth)
+        console.log(topic_goth)
 
         if (topic_goth=='family') {
 //template_goth//
@@ -254,6 +273,7 @@ function rd(){
     }
 
     if (emotion=='good') {
+
 ///libs
         if (topic=='libs') {
 
