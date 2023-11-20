@@ -23,14 +23,14 @@ var templates_chad = Array('./memetemplates/djtmugshot.jpg','./memetemplates/I-S
 //Big Brain
 var templates_bigbrain = Array('./memetemplates/Dr-Evil-Laser.jpg','./memetemplates/saysomethingpenguin.png','./memetemplates/smartsponge.jpeg','./memetemplates/smartguy.jpg','./memetemplates/patsmartdumb.jpg','./memetemplates/timglow.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/calculateglow.jpeg','./memetemplates/universemind.jpeg')
 
-var templates_goth = Array('./memetemplates/smilejoker.jpg','./memetemplates/sendamessage.jpg','./memetemplates/tiredofpretending.png','./memetemplates/advanceddarkness.jpg','./memetemplates/And-everybody-loses-their-minds.jpg','./memetemplates/spookycat.png','./memetemplates/fireskeleton.jpg','./memetemplates/beatlejuice3.jpg','./memetemplates/beatlejuice2.jpg','./memetemplates/beatlejuice1.jpg','./memetemplates/aprilno.jpg','./memetemplates/someone.png','./memetemplates/okgetin.jpg','./memetemplates/zombiecoaster.jpg','./memetemplates/spookystops.png','./memetemplates/burnskeleton.jpeg','./memetemplates/spookyskeleton2.jpg','./memetemplates/whatsthisjack2.jpg','./memetemplates/spookyskeleton.jpg','./memetemplates/edward.jpg','./memetemplates/whatsthis.jpg','./memetemplates/wednesdaycomp.jpg','./memetemplates/gomez.jpg')
+var templates_goth = Array('./memetemplates/crusaderage.jpeg','./memetemplates/smilejoker.jpg','./memetemplates/sendamessage.jpg','./memetemplates/tiredofpretending.png','./memetemplates/advanceddarkness.jpg','./memetemplates/And-everybody-loses-their-minds.jpg','./memetemplates/spookycat.png','./memetemplates/fireskeleton.jpg','./memetemplates/beatlejuice3.jpg','./memetemplates/beatlejuice2.jpg','./memetemplates/beatlejuice1.jpg','./memetemplates/aprilno.jpg','./memetemplates/someone.png','./memetemplates/okgetin.jpg','./memetemplates/zombiecoaster.jpg','./memetemplates/spookystops.png','./memetemplates/burnskeleton.jpeg','./memetemplates/spookyskeleton2.jpg','./memetemplates/whatsthisjack2.jpg','./memetemplates/spookyskeleton.jpg','./memetemplates/edward.jpg','./memetemplates/whatsthis.jpg','./memetemplates/wednesdaycomp.jpg','./memetemplates/gomez.jpg')
 
 var templates_soy = Array('./memetemplates/Ill-Just-Wait-Here.jpg','./memetemplates/plaguedoctorpanic.jpg','./memetemplates/plaguepew.png','./memetemplates/sheepsoldier.jpg','./memetemplates/soyllet.jpg','./memetemplates/sadcat.jpg')
 
 function versionm(){
 
-    versionnum = 'a2.1.1'
-    libversionnum = '1.1.4'
+    versionnum = 'a2.2.0'
+    libversionnum = '1.1.5'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length+templates_goth.length+templates_bigbrain.length+templates_soy.length
     console.log(versionnum)
 
@@ -50,7 +50,7 @@ function versionm(){
 
 'mom','feds','libs','weak','btc','ai'
 */
-var emotions = Array('good','bad','rage');
+var emotions = Array('good','bad','rage','goth');
 var topics = Array('mom','feds','libs','weak','btc','ai');
 
 
@@ -231,32 +231,50 @@ function rd(){
         var lines_goth = Array('spooky ');
         var line_goth = lines_goth[Math.floor(Math.random()*lines_goth.length)];
 
-        var topics_goth = Array('family','artist','society');
+        var topics_goth = Array('family','artist');
+        //'family','artist','society'//
         var topic_goth = topics_goth[Math.floor(Math.random()*topics_goth.length)];
 
+
+        var goth_punches = Array('When','That moment when ','mfw ')
+        var goth_punch = goth_punches[Math.floor(Math.random()*goth_punches.length)];
+
         var goth_spooktober = Array();
-        var goth_family = Array('');
-        var goth_artist = Array();
-        var goth_society = Array();
+
+        var goth_family_ = Array('mom ','grandma ','dad ');
+        var goth_family = goth_family_[Math.floor(Math.random()*goth_family_.length)];
+          var goth_family2_ = Array('doesnt like my boots ','doesnt enjoy my music ','dislikes the playlist ','wasnt present growing up ');
+          var goth_family2 = goth_family2_[Math.floor(Math.random()*goth_family2_.length)];
+
+        var goth_artist_ = Array('critics ','psychologists ','professors ');
+        var goth_artist = goth_artist_[Math.floor(Math.random()*goth_artist_.length)];
+          var goth_artist2_ = Array('when seeing my art (its radioactive) ','when viewing my sketch books ','when viewing the resident turtured artists work ','seeing the process work (there isnt any)');
+          var goth_artist2 = goth_artist2_[Math.floor(Math.random()*goth_artist2_.length)];
+
+        var goth_society_ = Array('');
+        var goth_society = goth_society_[Math.floor(Math.random()*goth_society_.length)];
+          var goth_society2_ = Array('');
+          var goth_society2 = goth_society2_[Math.floor(Math.random()*goth_society2_.length)];
+
 
         console.log(line_goth)
         console.log(topic_goth)
 
         if (topic_goth=='family') {
 //template_goth//
-            document.getElementById("outputtext").innerHTML = punch + line_goth + buildalert
+            document.getElementById("outputtext").innerHTML = goth_punch + goth_family + goth_family2
             document.getElementById("memebg").src = template_goth
         }
 
         if (topic_goth=='artist') {
 //template_goth//
-            document.getElementById("outputtext").innerHTML = punch+line_goth + buildalert
+            document.getElementById("outputtext").innerHTML = goth_artist+goth_artist2
             document.getElementById("memebg").src = template_goth
         }
 
         if (topic_goth=='society') {
 //template_goth//
-            document.getElementById("outputtext").innerHTML = punch+line_goth + buildalert
+            document.getElementById("outputtext").innerHTML = punch+line_goth
             document.getElementById("memebg").src = template_goth
         }
 
