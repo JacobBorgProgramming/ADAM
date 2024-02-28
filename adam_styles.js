@@ -201,6 +201,11 @@ function OpenDyslexic2(){
 
 }
 
+function Merriweather2(){
+    document.getElementById("fontcontrol").style = 'font-family: "Merriweather"; '
+
+}
+
 
 function change_size2(){
 

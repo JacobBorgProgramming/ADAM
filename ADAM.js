@@ -87,7 +87,7 @@ var lines_b_libs = Array('Trump buys McDonalds ','you homestead ','homesteaders 
 var lines_r_libs = Array('you buy steak ','you dont eat ze bugz','you mention inflation ','you homestead ','conservatives mention the border ','someone doesnt get the jab ','doesnt partake in the fiat scam ');
 
 //soy
-var topics_soy = Array('redditors ','commies ','keyboard commies ')
+var topics_soy = Array('redditors ','commies ','keyboard commies ', 'keyboard warriors ','soylent enjoyers ')
 var lines_when_soy = Array('when the ','when ')
 var lines_g_soy = Array('bread lines are full ','means of production collapse ','national currency is worthless ')
 var lines_g2_soy = Array('you take ','a big company ','there is skyrocketing inflation ','their opposition is sent to gulags ')

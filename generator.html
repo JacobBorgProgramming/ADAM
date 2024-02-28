@@ -15,6 +15,8 @@
     <script src="./ADAM_MM.js"></script>
     <script src="./ADAM.js"></script>
     <script src="./adam_styles.js"></script>
+    <script src="./fontMenu.js"></script>
+
 
 
 
@@ -22,7 +24,7 @@
 
 
 
-  <body  onload="headermenu_new(), footermenu_new(), versionm()">
+  <body  onload="headermenu_new(), footermenu_new(), fontMenu(), versionm()">
     <header>
 
       <div id="topmenu_new">
@@ -75,15 +77,25 @@
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">
-                  <p>
-                    <button class="btn btn-link" style='font-family: "Open Sans";' onclick="OpenSans2()">Open Sans</button>
-                    <button class="btn btn-link" style='font-family: "Roboto Mono";' onclick="Roboto_Mono2()">Roboto Mono</button>
-                    <button class="btn btn-link" style='font-family: "OpenDyslexic Bold";' onclick="OpenDyslexic2()">Open Dyslexic</button>
+
+
+                  <!--fontMenu JS Script function-->
+
+                  <p id="fontMenuR1">
+                    <!--remote content-->
+                    <!--
+
+                      <button class="btn btn-link" style='font-family: "Open Sans";' onclick="OpenSans2()">Open Sans</button><button class="btn btn-link" style='font-family: "Roboto Mono";' onclick="Roboto_Mono2()">Roboto Mono</button><button class="btn btn-link" style='font-family: "OpenDyslexic Bold";' onclick="OpenDyslexic2()">Open Dyslexic</button>
+
+                    -->
                   </p>
-                  <p>
-                    <button class="btn btn-link" style='font-family: "Oswald";' onclick="oswald2()">Oswald</button>
-                    <button class="btn btn-link" style='font-family: "Cyanotype";' onclick="Cyanotype2()">Cyanotype</button>
-                    <button class="btn btn-link" style='font-family: "American Text";' onclick="American2()">American</button>
+                  <p id="fontMenuR2">
+                    <!--remote content-->
+                    <!--
+
+                      <button class="btn btn-link" style='font-family: "Oswald";' onclick="oswald2()">Oswald</button><button class="btn btn-link" style='font-family: "Merriweather";' onclick="Merriweather2()">Merriweather</button><button class="btn btn-link" style='font-family: "American Text";' onclick="American2()">American</button>
+
+                    -->
                   </p>
                   <p>
                     <input class="type-input" type="text" name="text size" id="textsizeinput" placeholder="Input size..."> <button class="btn btn-dark" onclick="change_size()">Set Size</button>
