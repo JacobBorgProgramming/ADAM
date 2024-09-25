@@ -63,8 +63,15 @@ html{
 
 .bottom {
   position: absolute;
-  bottom: 25px;
+  bottom: 25%;
   left: 10%;
+}
+
+.top-center {
+  text-align: center;
+}
+.bottom-center {
+  text-align: center;
 }
 
   /* Bottom right text */

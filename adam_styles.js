@@ -216,13 +216,12 @@ function change_size2(){
 }
 
 function center(){
-    document.getElementById("output").class = 'top'
-    document.getElementById("output2").class = 'bottom'
+    document.getElementById("content").style = 'text-align: center'
 }
 
 function left(){
-    document.getElementById("output").class = 'top-left'
-    document.getElementById("output2").class = 'bottom-left'
+    document.getElementById("content").style = ''
+
 }
 
 
@@ -324,6 +323,9 @@ function settemp(){
 
 
 }
+
+
+
 function settemp2(){
 
     y = document.getElementById("tempinput2").value
