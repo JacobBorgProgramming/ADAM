@@ -6,13 +6,13 @@ var templates = Array('./memetemplates/libertydoge.jpeg','./memetemplates/jbques
 var templates_g = Array('./memetemplates/mjsmile.jpeg','./memetemplates/cappy.jpeg','./memetemplates/smartfrog.png','./memetemplates/djtfrog.jpeg','./memetemplates/djtcorrects.jpeg','./memetemplates/wojacklook.png','./memetemplates/derpcat.jpeg','./memetemplates/happypossum.jpeg','./memetemplates/exciteddjt.jpeg','./memetemplates/pooh.jpeg','./memetemplates/volume.jpeg','./memetemplates/crusadergasp.png','./memetemplates/waddles.jpeg','./memetemplates/spongehappy.jpeg','./memetemplates/spongelaugh.jpeg','./memetemplates/ohyea.jpeg','./memetemplates/jimwatch.jpeg','./memetemplates/fancypooh.jpeg','./memetemplates/frogsmirk.jpeg','./memetemplates/frogsmile.jpeg','./memetemplates/djthappy.jpeg');
 
 //bad
-var templates_b = Array('./memetemplates/djtmugshot.jpg',' ./memetemplates/sadfrog.jpeg','./memetemplates/angrygnome.jpeg','./memetemplates/ozzywat.jpeg','./memetemplates/planktonyell.jpeg','./memetemplates/rockstop.jpeg','./memetemplates/cry.jpeg','./memetemplates/cappy.jpeg','./memetemplates/sadstitch.jpeg','./memetemplates/chyna.jpeg','./memetemplates/mjbothered.jpeg','./memetemplates/ronaldpain.png','./memetemplates/blueyreaction.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/ghost.png','./memetemplates/djtcringe.jpeg','./memetemplates/yelljack.png','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/hmmm.jpeg','./memetemplates/dontlikesound.jpeg','./memetemplates/everythingisfinefish.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/fedfish.jpeg','./memetemplates/grumpycat.jpeg','./memetemplates/muskgun.jpeg','./memetemplates/rageturtle.jpeg','./memetemplates/realsponge.jpeg','./memetemplates/powerofthesun.jpeg','./memetemplates/screaminjoeglowred.jpeg','./memetemplates/soidpanick.jpeg','./memetemplates/thanksreconsider.jpeg','./memetemplates/tableflip.jpeg','./memetemplates/sus.jpeg','./memetemplates/kfcnuggets.png','./memetemplates/screaminglib.017.png','./memetemplates/dontdoitagaingiga.png','./memetemplates/sadjoe.webp','./memetemplates/johncena.png','./memetemplates/thisisfine.jpeg','./memetemplates/thewhat.jpeg','./memetemplates/panickelmo.jpeg','./memetemplates/madarthur.jpeg','./memetemplates/madfish.jpeg','./memetemplates/madmonke.jpeg','./memetemplates/madpat.jpeg','./memetemplates/knifesquirrel.jpeg','./memetemplates/leavingsponge.jpeg','./memetemplates/krabspanic.jpeg','./memetemplates/crusadetime.jpeg','./memetemplates/frograge.jpeg','./memetemplates/disturbsquid.jpeg','./memetemplates/bert.jpeg','./memetemplates/burnskeleton.jpeg','./memetemplates/aaa.jpeg');
+var templates_b = Array('./memetemplates/moodeng_yell4.webp','./memetemplates/moodeng_yell3.jpg','./memetemplates/moodeng_yell2.jpg','./memetemplates/moodeng_yell1.webp','./memetemplates/djtmugshot.jpg',' ./memetemplates/sadfrog.jpeg','./memetemplates/angrygnome.jpeg','./memetemplates/ozzywat.jpeg','./memetemplates/planktonyell.jpeg','./memetemplates/rockstop.jpeg','./memetemplates/cry.jpeg','./memetemplates/cappy.jpeg','./memetemplates/sadstitch.jpeg','./memetemplates/chyna.jpeg','./memetemplates/mjbothered.jpeg','./memetemplates/ronaldpain.png','./memetemplates/blueyreaction.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/ghost.png','./memetemplates/djtcringe.jpeg','./memetemplates/yelljack.png','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/hmmm.jpeg','./memetemplates/dontlikesound.jpeg','./memetemplates/everythingisfinefish.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/fedfish.jpeg','./memetemplates/grumpycat.jpeg','./memetemplates/muskgun.jpeg','./memetemplates/rageturtle.jpeg','./memetemplates/realsponge.jpeg','./memetemplates/powerofthesun.jpeg','./memetemplates/screaminjoeglowred.jpeg','./memetemplates/soidpanick.jpeg','./memetemplates/thanksreconsider.jpeg','./memetemplates/tableflip.jpeg','./memetemplates/sus.jpeg','./memetemplates/kfcnuggets.png','./memetemplates/screaminglib.017.png','./memetemplates/dontdoitagaingiga.png','./memetemplates/sadjoe.webp','./memetemplates/johncena.png','./memetemplates/thisisfine.jpeg','./memetemplates/thewhat.jpeg','./memetemplates/panickelmo.jpeg','./memetemplates/madarthur.jpeg','./memetemplates/madfish.jpeg','./memetemplates/madmonke.jpeg','./memetemplates/madpat.jpeg','./memetemplates/knifesquirrel.jpeg','./memetemplates/leavingsponge.jpeg','./memetemplates/krabspanic.jpeg','./memetemplates/crusadetime.jpeg','./memetemplates/frograge.jpeg','./memetemplates/disturbsquid.jpeg','./memetemplates/bert.jpeg','./memetemplates/burnskeleton.jpeg','./memetemplates/aaa.jpeg');
 
 //questioning
-var templates_q = Array('./memetemplates/confusedjacky.jpg','./memetemplates/cappy.jpeg','./memetemplates/dewaeconfused.jpeg','./memetemplates/djtcringe.jpeg','./memetemplates/planktonhands.jpeg','./memetemplates/johncena.png','./memetemplates/mygoals.jpeg','./memetemplates/mike.jpeg','./memetemplates/jones.jpg','./memetemplates/calculateglow.jpeg','./memetemplates/calculate.jpeg','./memetemplates/confused.jpeg','./memetemplates/spongewhat.jpeg','./memetemplates/whatcat.jpeg','./memetemplates/jbquestions.053.jpeg','./memetemplates/whatjack.jpeg','./memetemplates/holup.jpeg','./memetemplates/confusedcat.jpeg');
+var templates_q = Array('./memetemplates/moodeng_sit.webp','./memetemplates/confusedjacky.jpg','./memetemplates/cappy.jpeg','./memetemplates/dewaeconfused.jpeg','./memetemplates/djtcringe.jpeg','./memetemplates/planktonhands.jpeg','./memetemplates/johncena.png','./memetemplates/mygoals.jpeg','./memetemplates/mike.jpeg','./memetemplates/jones.jpg','./memetemplates/calculateglow.jpeg','./memetemplates/calculate.jpeg','./memetemplates/confused.jpeg','./memetemplates/spongewhat.jpeg','./memetemplates/whatcat.jpeg','./memetemplates/jbquestions.053.jpeg','./memetemplates/whatjack.jpeg','./memetemplates/holup.jpeg','./memetemplates/confusedcat.jpeg');
 
 //rage
-var templates_r = Array('./memetemplates/djtmugshot.jpg','./memetemplates/maddoge.jpg','./memetemplates/hulkyell.jpg','./memetemplates/anger.jpg','./memetemplates/surrealanger.jpg','./memetemplates/sbfplot.jpeg','./memetemplates/gnomerevolt.jpeg','./memetemplates/planktonevil.png','./memetemplates/crusaderage.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/ronaldpain.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/kermitrage.jpeg','./memetemplates/hyperkyle.jpeg','./memetemplates/frograge.jpeg','./memetemplates/ernie.jpeg');
+var templates_r = Array('./memetemplates/moodeng_splash.jpg','./memetemplates/moodeng_flamin.webp','./memetemplates/moodeng_yell4.webp','./memetemplates/moodeng_yell3.jpg','./memetemplates/moodeng_yell2.jpg','./memetemplates/moodeng_yell1.webp','./memetemplates/djtmugshot.jpg','./memetemplates/maddoge.jpg','./memetemplates/hulkyell.jpg','./memetemplates/anger.jpg','./memetemplates/surrealanger.jpg','./memetemplates/sbfplot.jpeg','./memetemplates/gnomerevolt.jpeg','./memetemplates/planktonevil.png','./memetemplates/crusaderage.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/ronaldpain.png','./memetemplates/patrickinternalrage.jpeg','./memetemplates/possumrage.png','./memetemplates/planktonrage.jpeg','./memetemplates/kermitrage.jpeg','./memetemplates/hyperkyle.jpeg','./memetemplates/frograge.jpeg','./memetemplates/ernie.jpeg');
 
 //conspiracy
 var templates_c = Array('./memetemplates/Laughing-Villains.jpg','./memetemplates/sbfplot.jpeg','./memetemplates/planktonevil.png','./memetemplates/npccrowd.jpeg','./memetemplates/wizardorb.jpeg','./memetemplates/conspiracytom.jpeg','./memetemplates/1984.jpeg','./memetemplates/zurgreading.png','./memetemplates/ponder.jpeg','./memetemplates/fakenews.jpeg','./memetemplates/calculate.jpeg','./memetemplates/conspiracyal.jpeg')
@@ -23,14 +23,18 @@ var templates_chad = Array('./memetemplates/djtmugshot.jpg','./memetemplates/I-S
 //Big Brain
 var templates_bigbrain = Array('./memetemplates/Dr-Evil-Laser.jpg','./memetemplates/saysomethingpenguin.png','./memetemplates/smartsponge.jpeg','./memetemplates/smartguy.jpg','./memetemplates/patsmartdumb.jpg','./memetemplates/timglow.jpeg','./memetemplates/ragindewae.jpeg','./memetemplates/calculateglow.jpeg','./memetemplates/universemind.jpeg')
 
+//Animals
+var templates_animals = Array('./memetemplates/moodeng_splash.jpg','./memetemplates/moodeng_flamin.webp','./memetemplates/moodeng_yell4.webp','./memetemplates/moodeng_yell3.jpg','./memetemplates/moodeng_yell2.jpg','./memetemplates/moodeng_yell1.webp','./memetemplates/moodeng_sit.webp','./memetemplates/sadcat.jpg','./memetemplates/F5S7BB8WUAARMTx.jpg','./memetemplates/spookycat.png','./memetemplates/sheepsoldier.jpg','./memetemplates/I-Should-Buy-A-Boat-Cat.jpg','./memetemplates/maddoge.jpg','./memetemplates/sadfrog.jpeg','./memetemplates/cappy.jpeg','./memetemplates/possumrage.png','./memetemplates/derpcat.jpeg','./memetemplates/happypossum.jpeg')
+
+
 var templates_goth = Array('./memetemplates/crusaderage.jpeg','./memetemplates/smilejoker.jpg','./memetemplates/sendamessage.jpg','./memetemplates/tiredofpretending.png','./memetemplates/advanceddarkness.jpg','./memetemplates/And-everybody-loses-their-minds.jpg','./memetemplates/spookycat.png','./memetemplates/fireskeleton.jpg','./memetemplates/beatlejuice3.jpg','./memetemplates/beatlejuice2.jpg','./memetemplates/beatlejuice1.jpg','./memetemplates/aprilno.jpg','./memetemplates/someone.png','./memetemplates/okgetin.jpg','./memetemplates/zombiecoaster.jpg','./memetemplates/spookystops.png','./memetemplates/burnskeleton.jpeg','./memetemplates/spookyskeleton2.jpg','./memetemplates/whatsthisjack2.jpg','./memetemplates/spookyskeleton.jpg','./memetemplates/edward.jpg','./memetemplates/whatsthis.jpg','./memetemplates/wednesdaycomp.jpg','./memetemplates/gomez.jpg')
 
 var templates_soy = Array('./memetemplates/Ill-Just-Wait-Here.jpg','./memetemplates/plaguedoctorpanic.jpg','./memetemplates/plaguepew.png','./memetemplates/sheepsoldier.jpg','./memetemplates/soyllet.jpg','./memetemplates/sadcat.jpg')
 
 function versionm(){
 
-    versionnum = 'a2.2.0'
-    libversionnum = '1.1.5'
+    versionnum = 'a2.2.1'
+    libversionnum = '1.1.6'
     ttemplates = templates_g.length+templates_b.length+templates_q.length+templates_r.length+templates_c.length+templates_chad.length+templates_goth.length+templates_bigbrain.length+templates_soy.length
     console.log(versionnum)
 
@@ -88,8 +92,8 @@ var lines_r_libs = Array('you buy steak ','you dont eat ze bugz','you mention in
 
 //soy
 var topics_soy = Array('redditors ','commies ','keyboard commies ', 'keyboard warriors ','soylent enjoyers ')
-var lines_when_soy = Array('when the ','when ')
-var lines_g_soy = Array('bread lines are full ','means of production collapse ','national currency is worthless ')
+var lines_when_soy = Array('when ','')
+var lines_g_soy = Array('the bread lines are full ','thw means of production collapse ','national currencies are worthless ')
 var lines_g2_soy = Array('you take ','a big company ','there is skyrocketing inflation ','their opposition is sent to gulags ')
 var lines_b_soy = Array('','')
 var lines_r_soy = Array('','')
@@ -133,9 +137,9 @@ var lines_g = Array('SEC takes their holdings ','BTC goes up ','ordinals go vira
 
 //very confuse
 //many ponder
-
-var atb_subjects_1 = Array('when ','that moment when ','atb_l2')
-var atb_subjects_2 = Array('vegans ','libs','conservatives ','women ', 'men ','politicians ','feds ','crypto bros ','you ', 'me ', 'mom ')
+var atb_emotions = Array('good','bad','rage');
+var atb_subjects_1 = Array('')
+var atb_subjects_2 = Array('liberals ')
 
 let when = 'when '
 
@@ -147,9 +151,106 @@ function atb(){
     document.getElementById("watermark").src = './adamwatermark.png'
     var subject1 = atb_subjects_1[Math.floor(Math.random()*atb_subjects_1.length)];
 
-    document.getElementById("outputtext").innerHTML = subject1
+    var subject2 = atb_subjects_2[Math.floor(Math.random()*atb_subjects_2.length)];
+    console.log(subject2)
+    var atb_emotion = atb_emotions[Math.floor(Math.random()*atb_emotions.length)];
+    console.log(atb_emotion)
 
-    document.getElementById("memebg").src = template_g
+        var subject = subjects[Math.floor(Math.random()*subjects.length)];
+
+        var template = templates[Math.floor(Math.random()*templates.length)];
+
+        var template_g = templates_g[Math.floor(Math.random()*templates_g.length)];
+
+        var template_b = templates_b[Math.floor(Math.random()*templates_b.length)];
+
+        var template_q = templates_q[Math.floor(Math.random()*templates_q.length)];
+
+        var template_r = templates_r[Math.floor(Math.random()*templates_r.length)];
+
+        var template_goth = templates_goth[Math.floor(Math.random()*templates_goth.length)];
+
+        var template_animal = templates_animals[Math.floor(Math.random()*templates_animals.length)];
+
+    if (subject2=='liberals ') {
+
+      var topic_libs = topics_libs[Math.floor(Math.random()*topics_libs.length)];
+      var line_g_libs = lines_g_libs[Math.floor(Math.random()*lines_g_libs.length)];
+      var line_b_libs = lines_b_libs[Math.floor(Math.random()*lines_b_libs.length)];
+      var line_r_libs = lines_r_libs[Math.floor(Math.random()*lines_r_libs.length)];
+
+      var topic_weak = topics_weak[Math.floor(Math.random()*topics_weak.length)];
+      var line_g_weak = lines_g_weak[Math.floor(Math.random()*lines_g_weak.length)];
+      var line_g2_weak = lines_g2_weak[Math.floor(Math.random()*lines_g2_weak.length)];
+      var line_b_weak = lines_b_weak[Math.floor(Math.random()*lines_b_weak.length)];
+      var line_r_weak = lines_r_weak[Math.floor(Math.random()*lines_r_weak.length)];
+
+      var line_g_ai = lines_g_ai[Math.floor(Math.random()*lines_g_ai.length)];
+      var line_b_ai = lines_b_ai[Math.floor(Math.random()*lines_b_ai.length)];
+      var line_r_ai = lines_b_ai[Math.floor(Math.random()*lines_r_ai.length)];
+
+      if (atb_emotion=='good') {
+        var types = Array('1','2')
+        var type = types[Math.floor(Math.random()*types.length)];
+
+        if (type=='1') {
+        document.getElementById("outputtext").innerHTML = subject1+topic_libs+when+line_g_libs
+
+        document.getElementById("memebg").src = template_g
+        }
+        if (type=='2') {
+        document.getElementById("outputtext").innerHTML = subject1+topic_weak+when+line_g_libs
+
+        document.getElementById("memebg").src = template_g
+        }
+
+
+      }
+
+      if (atb_emotion=='bad') {
+        var types = Array('1','2','3')
+        var type = types[Math.floor(Math.random()*types.length)];
+
+        if (type=='1') {
+        document.getElementById("outputtext").innerHTML = subject1+topic_libs+when+line_b_libs
+
+        document.getElementById("memebg").src = template_b
+        }
+        if (type=='2') {
+        document.getElementById("outputtext").innerHTML = subject1+topic_weak+when+line_b_libs
+
+        document.getElementById("memebg").src = template_b
+        }
+        if (type=='3') {
+        document.getElementById("outputtext").innerHTML = subject1+topic_libs+when+line_b_weak
+
+        document.getElementById("memebg").src = template_b
+        }
+
+      }
+
+      if (atb_emotion=='rage') {
+        var types = Array('1','2','3')
+        var type = types[Math.floor(Math.random()*types.length)];
+
+        if (type=='1') {
+        document.getElementById("outputtext").innerHTML = subject1+topic_libs+when+line_r_libs
+
+        document.getElementById("memebg").src = template_r
+        }
+        if (type=='2') {
+        document.getElementById("outputtext").innerHTML = subject1+topic_weak+when+line_r_libs
+
+        document.getElementById("memebg").src = template_r
+        }
+        if (type=='3') {
+        document.getElementById("outputtext").innerHTML = subject1+topic_libs+when+line_r_weak
+
+        document.getElementById("memebg").src = template_r
+        }
+
+      }
+    }
 }
 
 
@@ -218,6 +319,8 @@ function rd(){
     var template_r = templates_r[Math.floor(Math.random()*templates_r.length)];
 
     var template_goth = templates_goth[Math.floor(Math.random()*templates_goth.length)];
+
+    var template_animal = templates_animals[Math.floor(Math.random()*templates_animals.length)];
 
 
     var punch = punches[Math.floor(Math.random()*punches.length)];
